@@ -1,13 +1,28 @@
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  gql,
+} from "@apollo/client";
 import React from "react";
 import ReactDOM from "react-dom";
-import "./styles/.index.css";
+import "./styles/index.css";
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
 
+const client = new ApolloClient({
+  uri: "/graphql",
+  cache: new InMemoryCache(),
+});
+
+//const createStoreWithMiddleware = compose(applyMiddleware(thunk))(createStore);
+
+//const store = createStoreWithMiddleware(reducer);
+
 ReactDOM.render(
-  <React.StrictMode>
+  <ApolloProvider client={client}>
     <App />
-  </React.StrictMode>,
+  </ApolloProvider>,
   document.getElementById("root")
 );
 
