@@ -5,7 +5,7 @@ const schema = require("./schema");
 const Knex = require("knex");
 const { migrateDB } = require("graphql-migrations");
 const { createKnexDbProvider } = require("@graphback/runtime-knex");
-const dbConfig = require("..knexfile.js");
+const dbConfig = require("../knexfile.js");
 const path = require("path");
 
 const environment = process.env.NODE_ENV || "development";
@@ -46,6 +46,6 @@ const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
   console.log(
-    `Running a GraphQL API server with Apollo at localhost:${Port}/${server.graphqlPath}`
+    `Running a GraphQL API server with Apollo at localhost:${PORT}/${server.graphqlPath}`
   );
 });
