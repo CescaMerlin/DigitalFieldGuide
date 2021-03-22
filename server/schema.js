@@ -5,34 +5,16 @@ const schema = `
     """
 
     type Bird {
-        id: ID
-        commonName: String
-        species: String!
+        id: ID!
+        commonNameEnglish: String
+        commonNameJapanese: String
+        commonNameRomaji: String
+        order: String!
+        family: String!
+        species: String
         range: String
         photos: [String]
         profilePic: String
-    }
-
-    """
-    @model
-    """
-
-    type Order {
-        id: ID
-        orderName: String
-        """
-        @oneToMany(field: 'sciOrder')
-        """
-        birds: [Bird]
-    }
-
-    type Family {
-        id: ID
-        familyName: String
-        """
-        @oneToMany(field: 'sciFamily')
-        """
-        birds: [Bird]
     }
 
 `;

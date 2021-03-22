@@ -15,6 +15,7 @@ const dbConfig = {
       user: process.env.DB_USER,
       password: process.env.DB_PW,
       database: process.env.DB_NAME,
+      charset: "SJIS",
     },
     migrations: {
       directory: __dirname + "/data",
@@ -26,6 +27,7 @@ const dbConfig = {
   production: {
     client: "pg",
     connection: pgconfig,
+    charset: "UTF8",
     migrations: {
       directory: __dirname + "/data",
     },
