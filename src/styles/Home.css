@@ -1,8 +1,14 @@
-section {
+.homeWrapper {
   width: 100%;
   background-color: #d3d0c5;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+button {
+  margin-top: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .categorySelect {
@@ -15,4 +21,12 @@ section {
   margin-top: 5px;
   padding-top: 1px;
   padding-bottom: 1px;
+  height: 21.3px;
+}
+
+.manual {
+  margin-top: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 15px;
 }
