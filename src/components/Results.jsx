@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useQuery, gql } from "@apollo/client";
 import "../styles/Results.css";
 import BirdTop from "./BirdTop";
 
-const getResults = gql`
+const BIRD_QUERY = gql`
   query Bird(
     $engName: String
     $japName: String
@@ -40,12 +40,80 @@ const getResults = gql`
   }
 `;
 
+function setVariableObj(params) {
+  const variableObj = {};
+  if (params.engName !== "") {
+    variableObj.engName = params.engName;
+  }
+  if (params.romName !== "") {
+    variableObj.romName = params.romName;
+  }
+  if (params.japName !== "") {
+    variableObj.japName = params.japName;
+  }
+  if (params.order !== "") {
+    variableObj.order = params.order;
+  }
+  if (params.family !== "") {
+    variableObj.family = params.family;
+  }
+  if (params.species !== "") {
+    let formSpecies = params.species;
+    formSpecies = formSpecies.toLowerCase();
+    formSpecies = formSpecies[0].toUpperCase() + formSpecies.slice(1);
+    variableObj.species = formSpecies;
+  }
+  return variableObj;
+}
+
 const Results = (props) => {
-  return (
-    <section className="resultsWrapper">
-      <BirdTop />
-    </section>
-  );
+  for (const key in props.searchParams) {
+    if (props.searchParams[key] === "select") {
+      props.searchParams[key] = "";
+    }
+  }
+  console.log("params", props.searchParams);
+  const input = setVariableObj(props.searchParams);
+  const { data, loading, error } = useQuery(BIRD_QUERY, {
+    variables: input,
+  });
+
+  const handleNewSearch = (e) => {
+    props.setSearchParams({
+      engName: "",
+      romName: "",
+      japName: "",
+      order: "",
+      family: "",
+      species: "",
+    });
+    props.setView("search");
+  };
+
+  if (data) {
+    console.log("results", data);
+    return (
+      <section className="resultsWrapper">
+        {data.findBirds.count === 0 ? (
+          <section>
+            <div className="resultCount">Results...0</div>
+            <button className="newSearch" onClick={handleNewSearch}>
+              Search Again
+            </button>
+          </section>
+        ) : (
+          <section>
+            <div className="resultCount">Results...{data.findBirds.count}</div>
+            <button className="newSearch" onClick={handleNewSearch}>
+              Search Again
+            </button>
+            <BirdTop resultData={data.findBirds.items} />
+          </section>
+        )}
+      </section>
+    );
+  }
+  return <div>Waiting on Results</div>;
 };
 
 export default Results;

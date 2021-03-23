@@ -1,6 +1,24 @@
 .resultsWrapper {
   width: 100%;
+  min-height: 80vh;
+  overflow: hidden;
   background-color: #d3d0c5;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.resultCount {
+  font-style: italic;
+}
+
+.newSearch {
+  height: 30px;
+  margin-top: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #d3d0c5;
+  font-weight: bolder;
+  text-decoration: underline;
+  border: 3px solid darkgray;
+  border-radius: 5px;
 }

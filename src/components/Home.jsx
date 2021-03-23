@@ -21,7 +21,13 @@ const Home = (props) => {
     props.setTextInput(e.target.value);
   };
   const handleSearch = (e) => {
-    props.setView("results");
+    if (
+      (props.searchParams.family !== "select" &&
+        props.searchParams.family !== "") ||
+      (props.searchParams.order !== "select" && props.searchParams.order !== "")
+    ) {
+      props.setView("results");
+    }
   };
   const handleInputSearch = (e) => {
     props.setSearchParams({
@@ -53,7 +59,10 @@ const Home = (props) => {
             <option value="Accipitriformes">Accipitriformes</option>
             <option value="Passeriformes">Passeriformes</option>
           </select>
-          <button onClick={handleSearch}>Search</button>
+          <br></br>
+          <button className="search" onClick={handleSearch}>
+            Search
+          </button>
         </div>
       )}
       {props.catSelect === "family" && (
@@ -65,7 +74,10 @@ const Home = (props) => {
             <option value="Accipitridae">Accipitridae</option>
             <option value="Corvidae">Corvidae</option>
           </select>
-          <button onClick={handleSearch}>Search</button>
+          <br></br>
+          <button className="search" onClick={handleSearch}>
+            Search
+          </button>
         </div>
       )}
       {["species", "engName", "romName", "japName"].includes(
@@ -73,7 +85,10 @@ const Home = (props) => {
       ) && (
         <section>
           <input type="text" className="manual" onKeyUp={handleInput}></input>
-          <button onClick={handleInputSearch}>Search</button>
+          <br></br>
+          <button className="search" onClick={handleInputSearch}>
+            Search
+          </button>
         </section>
       )}
     </section>
