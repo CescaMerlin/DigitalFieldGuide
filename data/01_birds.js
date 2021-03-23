@@ -54,6 +54,8 @@ exports.seed = function (knex) {
           range: "Hokkaido",
           rangeMap:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Strix_uralensis_distr..png/220px-Strix_uralensis_distr..png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Strix_uralensis_0a1.JPG/1024px-Strix_uralensis_0a1.JPG",
         },
         {
           commonNameEnglish: "Long-eared Owl",

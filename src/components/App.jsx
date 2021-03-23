@@ -36,7 +36,11 @@ const App = () => {
           setView={setView}
         />
       ) : (
-        <Results searchParams={searchParams} />
+        <Results
+          searchParams={searchParams}
+          setSearchParams={setSearchParams}
+          setView={setView}
+        />
       )}
     </div>
   );
