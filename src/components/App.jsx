@@ -1,14 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/App.css";
+import Header from "./Header";
+import Home from "./Home";
 
-function App() {
+const App = () => {
+  const [catSelect, setCatSelect] = useState("");
+  const [searchParams, setSearchParams] = useState({
+    commonNameEnglish: "",
+    commonNameRomaji: "",
+    commonNameJapanese: "",
+    order: "",
+    family: "",
+    species: "",
+  });
+
+  console.log("App level current cat:", catSelect);
+  console.log("App level current search:", searchParams);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Here there be Owls!</p>
-      </header>
+      <Header />
+      <Home catSelect={catSelect} setCatSelect={setCatSelect} />
     </div>
   );
-}
+};
 
 export default App;

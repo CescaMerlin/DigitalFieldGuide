@@ -15,10 +15,6 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-//const createStoreWithMiddleware = compose(applyMiddleware(thunk))(createStore);
-
-//const store = createStoreWithMiddleware(reducer);
-
 ReactDOM.render(
   <ApolloProvider client={client}>
     <App />
