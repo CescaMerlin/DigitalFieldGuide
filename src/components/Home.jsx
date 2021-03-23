@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useQuery, gql } from "@apollo/client";
 import "../styles/Home.css";
 
 const Home = (props) => {
@@ -8,17 +7,32 @@ const Home = (props) => {
   };
   const handleOrdSelect = (e) => {
     props.setSearchParams({
+      ...props.searchParams,
       order: e.target.value,
     });
   };
   const handleFamSelect = (e) => {
     props.setSearchParams({
+      ...props.searchParams,
       family: e.target.value,
     });
   };
+  const handleInput = (e) => {
+    props.setTextInput(e.target.value);
+  };
+  const handleSearch = (e) => {
+    props.setView("results");
+  };
+  const handleInputSearch = (e) => {
+    props.setSearchParams({
+      ...props.searchParams,
+      [props.catSelect]: props.textInput,
+    });
+    props.setView("results");
+  };
 
   return (
-    <section>
+    <section className="homeWrapper">
       What would you like to search by?
       <br></br>
       <select className="categorySelect" onClick={handleCatSelect}>
@@ -32,21 +46,35 @@ const Home = (props) => {
       </select>
       <br></br>
       {props.catSelect === "order" && (
-        <select className="sciSelect" onClick={handleOrdSelect}>
-          <option value="select">Select</option>
-          <option value="strigiformes">Strigiformes</option>
-          <option value="accipitriformes">Accipitriformes</option>
-          <option value="passeriformes">Passeriformes</option>
-        </select>
+        <div>
+          <select className="sciSelect" onClick={handleOrdSelect}>
+            <option value="select">Select</option>
+            <option value="Strigiformes">Strigiformes</option>
+            <option value="Accipitriformes">Accipitriformes</option>
+            <option value="Passeriformes">Passeriformes</option>
+          </select>
+          <button onClick={handleSearch}>Search</button>
+        </div>
       )}
       {props.catSelect === "family" && (
-        <select className="sciSelect" onClick={handleFamSelect}>
-          <option value="select">Select</option>
-          <option value="strigidae">Strigidae</option>
-          <option value="pandionidae">Pandionidae</option>
-          <option value="accipitridae">Accipitridae</option>
-          <option value="corvidae">Corvidae</option>
-        </select>
+        <div>
+          <select className="sciSelect" onClick={handleFamSelect}>
+            <option value="select">Select</option>
+            <option value="Strigidae">Strigidae</option>
+            <option value="Pandionidae">Pandionidae</option>
+            <option value="Accipitridae">Accipitridae</option>
+            <option value="Corvidae">Corvidae</option>
+          </select>
+          <button onClick={handleSearch}>Search</button>
+        </div>
+      )}
+      {["species", "engName", "romName", "japName"].includes(
+        props.catSelect
+      ) && (
+        <section>
+          <input type="text" className="manual" onKeyUp={handleInput}></input>
+          <button onClick={handleInputSearch}>Search</button>
+        </section>
       )}
     </section>
   );
