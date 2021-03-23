@@ -41,6 +41,8 @@ exports.seed = function (knex) {
           family: "Strigidae",
           species: "Bubo blakistoni",
           range: "N Japan (s Kuril Islands and Hokkaido)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/BuboBlakistoniIUCN2019-2.png/220px-BuboBlakistoniIUCN2019-2.png",
         },
         {
           commonNameEnglish: "Ural Owl",
@@ -50,6 +52,8 @@ exports.seed = function (knex) {
           family: "Strigidae",
           species: "Strix uralensis japonica",
           range: "Hokkaido",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Strix_uralensis_distr..png/220px-Strix_uralensis_distr..png",
         },
         {
           commonNameEnglish: "Long-eared Owl",
@@ -59,6 +63,8 @@ exports.seed = function (knex) {
           family: "Strigidae",
           species: "Asio otus",
           range: "Europe, Asia and North Africa",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Asio_otus_distribution_map.png/220px-Asio_otus_distribution_map.png",
         },
         {
           commonNameEnglish: "Short-eared Owl",
@@ -68,6 +74,8 @@ exports.seed = function (knex) {
           family: "Strigidae",
           species: "Asio flammeus",
           range: "North America, Europe, n Asia and North Africa",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Sumpfohreule-Asio_flammeus-World.png/220px-Sumpfohreule-Asio_flammeus-World.png",
         },
         {
           commonNameEnglish: "Northern Boobook",
@@ -87,6 +95,8 @@ exports.seed = function (knex) {
           family: "Pandionidae",
           species: "Pandion haliaetus",
           range: "Palearctic; winters to South Africa, India and Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Wiki-Pandion_haliaetus.png/220px-Wiki-Pandion_haliaetus.png",
         },
         {
           commonNameEnglish: "Oriental Honey-buzzard",
@@ -141,6 +151,8 @@ exports.seed = function (knex) {
           family: "Accipitridae",
           species: "Circus cyaneus",
           range: "Widespread Eurasia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Circus_cyaneus_distribution_map.png/220px-Circus_cyaneus_distribution_map.png",
         },
         {
           commonNameEnglish: "Japanese Sparrowhawk",
@@ -160,6 +172,8 @@ exports.seed = function (knex) {
           family: "Accipitridae",
           species: "Accipiter gentilis fujiyamae",
           range: "Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/AccipiterGentilis.png/220px-AccipiterGentilis.png",
         },
         {
           commonNameEnglish: "Steller's Sea-Eagle",
@@ -170,6 +184,8 @@ exports.seed = function (knex) {
           species: "Haliaeetus pelagicus",
           range:
             "Coastal e Siberia; winters to China, Korea, Japan and Ryukyu Is.",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Haliaeetus_pelagicus_distr.png/220px-Haliaeetus_pelagicus_distr.png",
         },
         {
           commonNameEnglish: "Rough-legged Hawk",
@@ -179,6 +195,8 @@ exports.seed = function (knex) {
           family: "Accipitridae",
           species: "Buteo lagopus menzbieri",
           range: "NE Asia; winters to central Asia, n China and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Buteo_lagopus_distribution_map.png/220px-Buteo_lagopus_distribution_map.png",
         },
         {
           commonNameEnglish: "Eastern Buzzard",
@@ -198,6 +216,8 @@ exports.seed = function (knex) {
           family: "Corvidae",
           species: "Garrulus glandarius japonicus",
           range: "Japan (Honshu, Shikoku, northern Kyushu, and Tsushima)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Garrulus_glandarius_distribution.jpg/220px-Garrulus_glandarius_distribution.jpg",
         },
         {
           commonNameEnglish: "Lidth's Jay",
@@ -216,6 +236,8 @@ exports.seed = function (knex) {
           family: "Corvidae",
           species: "Cyanopica cyanus japonica",
           range: "Japan (Honshu and Kyushu)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cyanopica_cyanus_distribution.png/220px-Cyanopica_cyanus_distribution.png",
         },
         {
           commonNameEnglish: "Spotted Nutcracker",
@@ -225,6 +247,8 @@ exports.seed = function (knex) {
           family: "Corvidae",
           species: "Nucifraga caryocatactes japonica",
           range: "Central and s Kuril Islands, Hokkaido and Honshu",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Map_of_distribution_of_Nucifraga_caryocatactes.png/220px-Map_of_distribution_of_Nucifraga_caryocatactes.png",
         },
         {
           commonNameEnglish: "Rook",
@@ -234,6 +258,8 @@ exports.seed = function (knex) {
           family: "Corvidae",
           species: "Corvus frugilegus pastinator",
           range: "E Asia; > to Korea, Japan and se China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Rook_range_map.PNG/220px-Rook_range_map.PNG",
         },
         {
           commonNameEnglish: "Carrion Crow",
@@ -243,6 +269,8 @@ exports.seed = function (knex) {
           family: "Corvidae",
           species: "Corvus corone orientalis",
           range: "Iran to n China, Korea and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Carrion_Crow_Range.png/240px-Carrion_Crow_Range.png",
         },
         {
           commonNameEnglish: "Common Raven",
@@ -253,6 +281,8 @@ exports.seed = function (knex) {
           species: "Corvus corax kamtschaticus",
           range:
             "Siberia to Sea of Okhotsk, Sakhalin, Kuril Islands and n Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Corvus_corax_map.jpg/220px-Corvus_corax_map.jpg",
         },
       ]);
     });

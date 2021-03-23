@@ -13,6 +13,7 @@ const schema = `
         family: String!
         species: String
         range: String
+        rangeMap: String
         photos: [String]
         profilePic: String
     }
