@@ -26,8 +26,7 @@ const dbConfig = {
   },
   production: {
     client: "pg",
-    connection:
-      pgconfig || `postgres://${process.env.USER}@127.0.0.1:5432/japanbirds`,
+    connection: pgconfig,
     charset: "UTF8",
     migrations: {
       directory: __dirname + "/data",
