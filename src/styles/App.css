@@ -12,3 +12,11 @@
   padding-top: 25px;
   height: 30px;
 }
+
+a {
+  color: #d3d0c5;
+}
+
+a:hover {
+  cursor: pointer;
+}
