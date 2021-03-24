@@ -19,6 +19,15 @@ English-speaking birdwatchers in Japan who want a simple field guide to Japan's 
 
 DigiTori is a one page application with a simple design and user interface. Once you select your desired search, you receive basic information about each bird that matches your search. To start a new search, all you need to do is click the button to return to the input options.
 
+## Future Plans
+
+- add more birds to database
+- add a view for individual birds with more detailed information
+- add photo gallery for individual birds
+- add sound clips to individual bird details
+- implement options for users to create a personal photo gallery per bird
+- incorporate image recognition to match user photos to the correct bird
+
 ## Technology used
 
 - Postgres Database
