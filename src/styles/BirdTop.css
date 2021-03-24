@@ -3,8 +3,8 @@
 }
 
 .singleBird {
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
   padding-top: 14px;
   padding-bottom: 14px;
   display: flex;
@@ -14,22 +14,31 @@
 }
 
 img {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
+  padding: 5px;
+  border: 3px solid #011638;
+  border-radius: 5px;
 }
 
 .birdProfile {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
+  padding: 5px;
+  border: 3px solid #011638;
+  border-radius: 5px;
 }
 
 .rangeMap {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
+  padding: 5px;
+  border: 3px solid #011638;
+  border-radius: 5px;
 }
 
 .names {
-  margin-top: 1%;
+  margin-top: 0.2%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -37,23 +46,27 @@ img {
 p {
   margin-top: 3px;
   margin-bottom: 2px;
-  font-size: 13px;
+  font-size: 17px;
   font-style: italic;
 }
 
 .speciesInfo {
   margin-top: 13px;
-  font-size: 10px;
+  font-size: 14px;
   font-style: italic;
 }
 
 .details {
   background-color: #d3d0c5;
+  padding-top: 3px;
+  padding-bottom: 2px;
   font-weight: bold;
+  font-size: 18px;
   border: 3px solid darkgray;
   border-radius: 5px;
 }
 
 .details:hover {
-  box-shadow: 2px 2px rgb(90, 90, 90);
+  box-shadow: 4px 4px #011638;
+  cursor: pointer;
 }

@@ -42,6 +42,7 @@ const App = () => {
           setView={setView}
         />
       )}
+      <footer className="foot">Created by Francesca Marino</footer>
     </div>
   );
 };

@@ -17,7 +17,7 @@ English-speaking birdwatchers in Japan who want a simple field guide to Japan's 
 
 ## How it works
 
-DigiTori is a one page application has a simple design and user interface. Once you select your desired search, you receive basic information about each bird that matches your search. To start a new search, all you need to do is click the button to return to the input options.
+DigiTori is a one page application with a simple design and user interface. Once you select your desired search, you receive basic information about each bird that matches your search. To start a new search, all you need to do is click the button to return to the input options.
 
 ## Technology used
 
