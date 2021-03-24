@@ -14,7 +14,7 @@ exports.seed = function (knex) {
           species: "Otus semitorques",
           range: "S Kuril Islands and Hokkaido south to Yakushima I.",
           profilePic:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AD%E3%83%A5%E3%82%A6%E3%82%AA%E3%82%AA%E3%82%B3%E3%83%8E%E3%83%8F%E3%82%BA%E3%82%AF.jpg/1280px-%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AD%E3%83%A5%E3%82%A6%E3%82%AA%E3%82%AA%E3%82%B3%E3%83%8E%E3%83%8F%E3%82%BA%E3%82%AF.jpg",
+            "https://www.linkpicture.com/q/LPic605aa8f1c3e361637733283.jpg",
         },
         {
           commonNameEnglish: "Elegant Scops-Owl",
