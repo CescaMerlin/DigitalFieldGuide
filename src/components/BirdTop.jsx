@@ -43,7 +43,7 @@ const BirdTop = (props) => {
           ></img>
         );
       } else {
-        return <img alt="no map available" src={noMap}></img>;
+        return <img alt="no map available" className="nomap" src={noMap}></img>;
       }
     });
 

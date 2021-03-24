@@ -29,12 +29,14 @@ img {
   border-radius: 5px;
 }
 
-.rangeMap {
-  height: 180px;
-  width: 180px;
-  padding: 5px;
-  border: 3px solid #011638;
-  border-radius: 5px;
+@media screen and (min-width: 711px) {
+  .rangeMap {
+    height: 180px;
+    width: 180px;
+    padding: 5px;
+    border: 3px solid #011638;
+    border-radius: 5px;
+  }
 }
 
 .names {
@@ -69,4 +71,16 @@ p {
 .details:hover {
   box-shadow: 4px 4px #011638;
   cursor: pointer;
+}
+
+@media screen and (max-width: 710px) {
+  .rangeMap {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .nomap {
+    display: none;
+  }
 }

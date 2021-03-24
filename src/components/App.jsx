@@ -43,12 +43,21 @@ const App = () => {
         />
       )}
       <footer className="foot">
-        Created by <a href="https://github.com/CescaMerlin">Francesca Marino</a>{" "}
-        | | Data sourced from{" "}
+        DigiTori created by{" "}
+        <a href="https://github.com/CescaMerlin">Francesca Marino</a> | | Data
+        sourced from{" "}
         <a href="https://avibase.bsc-eoc.org/avibase.jsp">Avibase</a> | | Images
         sourced from <a href="https://www.wikipedia.org/">Wikipedia</a> | |
         Repository available on{" "}
         <a href="https://github.com/CescaMerlin/DigitalFieldGuide">Github</a>
+        <br></br>Logo design by Francesca Marino | | Owl icon made by{" "}
+        <a href="https://www.freepik.com" title="Freepik">
+          Freepik
+        </a>{" "}
+        from{" "}
+        <a href="https://www.flaticon.com/" title="Flaticon">
+          www.flaticon.com
+        </a>
       </footer>
     </div>
   );
