@@ -5,3 +5,10 @@
   height: 100%;
   font-family: "Optima", sans-serif;
 }
+
+.foot {
+  background-color: #2e321f;
+  color: #d3d0c5;
+  padding-top: 25px;
+  height: 30px;
+}
