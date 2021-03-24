@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/BirdTop.css";
 import noImg from "../images/no-photo.png";
+import noMap from "../images/no-map.png";
 
 const BirdTop = (props) => {
   if (props.resultData) {
@@ -42,7 +43,7 @@ const BirdTop = (props) => {
           ></img>
         );
       } else {
-        return <img alt="no photo available" src={noImg}></img>;
+        return <img alt="no map available" src={noMap}></img>;
       }
     });
 
