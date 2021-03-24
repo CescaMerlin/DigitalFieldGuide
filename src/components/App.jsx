@@ -42,7 +42,14 @@ const App = () => {
           setView={setView}
         />
       )}
-      <footer className="foot">Created by Francesca Marino</footer>
+      <footer className="foot">
+        Created by <a href="https://github.com/CescaMerlin">Francesca Marino</a>{" "}
+        | | Data sourced from{" "}
+        <a href="https://avibase.bsc-eoc.org/avibase.jsp">Avibase</a> | | Images
+        sourced from <a href="https://www.wikipedia.org/">Wikipedia</a> | |
+        Repository available on{" "}
+        <a href="https://github.com/CescaMerlin/DigitalFieldGuide">Github</a>
+      </footer>
     </div>
   );
 };
