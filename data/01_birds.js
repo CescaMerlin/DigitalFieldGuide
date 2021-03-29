@@ -334,6 +334,412 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Corvus_corax_kamtschaticus%2C_nortern_Mongolia.JPG/1280px-Corvus_corax_kamtschaticus%2C_nortern_Mongolia.JPG",
         },
+        {
+          commonNameEnglish: "Greater White-fronted Goose",
+          commonNameJapanese: "マガン",
+          commonNameRomaji: "magan",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Anser albifrons",
+          range:
+            "breeds in northern Russia, east to northeastern Siberia; winters in Europe east to southern Asia, south to northern India, southern China, and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Anser_albifrons_map.png/1280px-Anser_albifrons_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Greater_white-fronted_goose_%28cropped%29.jpg/1280px-Greater_white-fronted_goose_%28cropped%29.jpg",
+        },
+        {
+          commonNameEnglish: "Taiga Bean Goose",
+          commonNameJapanese: "ニシヒシクイ",
+          commonNameRomaji: "nishihishikui",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Anser fabalis",
+          range: "Taiga of e Siberia (east of Lake Baikal)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/AnserFabalisIUCNver2019_1.png/1280px-AnserFabalisIUCNver2019_1.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/1/15/Bean.goose.600pix.jpg",
+        },
+        {
+          commonNameEnglish: "Tundra Bean Goose",
+          commonNameJapanese: "ヒシクイ",
+          commonNameRomaji: "hishikui",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Anser serrirostris",
+          range: "Tundra of ne Siberia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/f/f9/Tundra_Bean_Goose.jpg",
+        },
+        {
+          commonNameEnglish: "Black Brant",
+          commonNameJapanese: "コクガン",
+          commonNameRomaji: "kokugan",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Branta nigricans",
+          range:
+            "breeds northeastern Siberia, western and northern Alaska, and northwestern Canada; winters from from Japan to Korea and northeastern China, and from Alaska to northwestern Mexico",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Brant_Goose_Range.png/1280px-Brant_Goose_Range.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Brent_Goose.jpg/1280px-Brent_Goose.jpg",
+        },
+        {
+          commonNameEnglish: "Cackling Goose",
+          commonNameJapanese: "シジュウガラガン",
+          commonNameRomaji: "shijuu karagan",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Branta hutchinsii asiatica",
+          range:
+            "Locally in Aleutians and Semdi Is., Alaska (formerly bred from Kuril Is. and Commander Is. east to near Kodiak I.); winters Oregon, California",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Branta_hutchinsii_map.svg/1280px-Branta_hutchinsii_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/b/b4/AleutianCanadaGoose2.jpg",
+        },
+        {
+          commonNameEnglish: "Tundra Swan",
+          commonNameJapanese: "コハクチョウ",
+          commonNameRomaji: "kohakuchou",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Cygnus bewickii",
+          range:
+            "Kola Peninsula to arctic n Siberia; winters w Europe to s Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Cygnus_columbianus_map.svg/1280px-Cygnus_columbianus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Cygnus_bewickii_01.jpg/1280px-Cygnus_bewickii_01.jpg",
+        },
+        {
+          commonNameEnglish: "Whooper Swan",
+          commonNameJapanese: "オオハクチョウ",
+          commonNameRomaji: "oohakuchou",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Cygnus cygnus",
+          range: "Palearctic; winters to India and se China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/3/3b/Cygnus-cygnus.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cygnus_cygnus_Singschwan.jpg/1024px-Cygnus_cygnus_Singschwan.jpg",
+        },
+        {
+          commonNameEnglish: "Common Shelduck",
+          commonNameJapanese: "ツクシガモ",
+          commonNameRomaji: "tsukushigamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Tadorna tadorna",
+          range: "Palearctic region; winters to Near East, India and Myanmar",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TadornaTadornaIUCN.png/1280px-TadornaTadornaIUCN.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Common_Shelduck_%28Tadorna_tadorna%29_at_Sylvan_Heights.jpg/1280px-Common_Shelduck_%28Tadorna_tadorna%29_at_Sylvan_Heights.jpg",
+        },
+        {
+          commonNameEnglish: "Baikal Teal",
+          commonNameJapanese: "トモエガモ",
+          commonNameRomaji: "tomoegamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Sibirionetta formosa",
+          range:
+            "breeds in northern and eastern Siberia; winters Japan, Korea, and eastern China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/SibirionettaFormosaIUCN2019-2.png/1280px-SibirionettaFormosaIUCN2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/2/21/Anas.formosa.4.jpg",
+        },
+        {
+          commonNameEnglish: "Garganey",
+          commonNameJapanese: "シマアジ",
+          commonNameRomaji: "shimaaji",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Spatula querquedula",
+          range: "Palearctic; winters to s Africa and Australasian region",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spatula_querquedula_map.svg/1280px-Spatula_querquedula_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Garganey_%28Anas_querquedula%29_RWD3.jpg/1280px-Garganey_%28Anas_querquedula%29_RWD3.jpg",
+        },
+        {
+          commonNameEnglish: "Northern Shoveler",
+          commonNameJapanese: "ハシビロガモ",
+          commonNameRomaji: "hashibirogamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Spatula clypeata",
+          range:
+            "Holarctic; winters to Africa, n South America and Malay Arch.",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/SpatulaClypeata.png/1280px-SpatulaClypeata.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Northern_shoveler_Steve_Sinclair_outreach_use_only_%2819838806616%29.jpg/1280px-Northern_shoveler_Steve_Sinclair_outreach_use_only_%2819838806616%29.jpg",
+        },
+        {
+          commonNameEnglish: "Gadwall",
+          commonNameJapanese: "オカヨシガモ",
+          commonNameRomaji: "okayoshigamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Mareca strepera",
+          range: "Widespread Palearctic and Nearctic regions",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mareca_strepera_map.svg/1280px-Mareca_strepera_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Gadwall-Anas-strepera.jpg/1280px-Gadwall-Anas-strepera.jpg",
+        },
+        {
+          commonNameEnglish: "Falcated Duck",
+          commonNameJapanese: "ヨシガモ",
+          commonNameRomaji: "yoshigamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Mareca falcata",
+          range: "E Siberia and Mongolia to n Japan; winters to India",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Falcated_duck_1.jpg/1280px-Falcated_duck_1.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Wigeon",
+          commonNameJapanese: "ヒドリガモ",
+          commonNameRomaji: "hidorigamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Mareca penelope",
+          range: "N and central Eurasia; winters to Africa and s Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mareca_penelope_map.svg/1280px-Mareca_penelope_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/5/53/Mareca_penelope_kuribo_cropped.jpg",
+        },
+        {
+          commonNameEnglish: "Eastern Spot-billed Duck",
+          commonNameJapanese: "カルガモ",
+          commonNameRomaji: "karugamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Anas zonorhyncha",
+          range: "Breeds ne Asia; winters to s China, Taiwan and Philippines",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Anas_zonorhyncha_swimming.jpg/1280px-Anas_zonorhyncha_swimming.jpg",
+        },
+        {
+          commonNameEnglish: "Mallard",
+          commonNameJapanese: "マガモ",
+          commonNameRomaji: "magamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Anas platyrhynchos",
+          range: "Holarctic; winters to Mexico, North Africa, India and Borneo",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/AnasPlatyrhynchosIUCN2019_2.png/1280px-AnasPlatyrhynchosIUCN2019_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Anas_platyrhynchos_male_female_quadrat.jpg/1024px-Anas_platyrhynchos_male_female_quadrat.jpg",
+        },
+        {
+          commonNameEnglish: "Northern Pintail",
+          commonNameJapanese: "オナガガモ",
+          commonNameRomaji: "onagagamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Anas acuta",
+          range:
+            "Palearctic and N America; winters to s Eurasia and n S America",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/AnasAcutaIUCN2019_2.png/1280px-AnasAcutaIUCN2019_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/0b/Northern_Pintails_%28Male_%26_Female%29_I_IMG_0911.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Teal",
+          commonNameJapanese: "コガモ",
+          commonNameRomaji: "kogamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Anas crecca",
+          range:
+            "breeds in Palearctic and the Aleutian Islands; winters from southern and central Europe east to Japan, south to Africa, south Asia, and southeast Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/e/e2/Anas_crecca_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/c/c0/Eurasian_teal_%28Anas_crecca%29_Photograph_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Common Pochard",
+          commonNameJapanese: "ホシハジロ",
+          commonNameRomaji: "hoshihajiro",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Aythya ferina",
+          range: "Palearctic; winters to tropical Africa, India and SE Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/AythyaFerinaIUCNver2018_2.png/1280px-AythyaFerinaIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Aythya_ferina_Sandwell_2.jpg/1280px-Aythya_ferina_Sandwell_2.jpg",
+        },
+        {
+          commonNameEnglish: "Baer's Pochard",
+          commonNameJapanese: "アカハジロ",
+          commonNameRomaji: "akahajiro",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Aythya baeri",
+          range: "NE Eurasia; winters to India, SE Asia and se China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/2/2d/Aythya_baeri_map_BirdLife.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/b/b7/Baer%27s_Pochard_RWD4.jpg",
+        },
+        {
+          commonNameEnglish: "Tufted Duck",
+          commonNameJapanese: "キンクロハジロ",
+          commonNameRomaji: "kinkurohajiro",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Aythya fuligula",
+          range: "N Palearctic region; winters to n Africa and s Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tufted_Duck_Range.png/1280px-Tufted_Duck_Range.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Tufted-Duck-male-female.jpg/800px-Tufted-Duck-male-female.jpg",
+        },
+        {
+          commonNameEnglish: "Greater Scaup",
+          commonNameJapanese: "スズガモ",
+          commonNameRomaji: "suzugamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Aythya marila",
+          range:
+            "breeds in northern Eurasia; winters to the Mediterranean region, India, Japan, Korea, and China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/d/df/The_GS_range_map.jpg",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Greater-scaup-male2.jpg/1280px-Greater-scaup-male2.jpg",
+        },
+        {
+          commonNameEnglish: "Steller's Eider",
+          commonNameJapanese: "コケワタガモ",
+          commonNameRomaji: "kokewatagamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Polysticta stelleri",
+          range: "Arctic Siberia (Taymyr Peninsula) east to n Alaska",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/2/21/Polysticta_stelleri_range_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Steller%27s_Eider_%28Polysticta_stelleri%29_%2813667966664%29.jpg/1280px-Steller%27s_Eider_%28Polysticta_stelleri%29_%2813667966664%29.jpg",
+        },
+        {
+          commonNameEnglish: "Harlequin Duck",
+          commonNameJapanese: "シノリガモ",
+          commonNameRomaji: "shinorigamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Histrionicus histrionicus",
+          range:
+            "breeds E Siberia northern Japan, Alaska south to Oregon and Wyoming, E Canada, Greenland, and Iceland; winters coastally from Siberia to Japan and Korea, Alaska to central California, NE United States, S Greenland, and Iceland",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Histrionicus_histrionicus_map.svg/1280px-Histrionicus_histrionicus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Histrionicus_histrionicus_drake_Barnegat.jpg/1280px-Histrionicus_histrionicus_drake_Barnegat.jpg",
+        },
+        {
+          commonNameEnglish: "Siberian Scoter",
+          commonNameJapanese: "ヨーロッパビロードキンクロ",
+          commonNameRomaji: "yooroppa biroodokinkuro",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Melanitta stejnegeri",
+          range: "Breeds ne Asia; winters coastal e Asia to Japan and China",
+        },
+        {
+          commonNameEnglish: "Black Scoter",
+          commonNameJapanese: "クロガモ",
+          commonNameRomaji: "kurogamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Melanitta americana",
+          range: "Breeds n Siberia to Alaska; winters to n US",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Melanitta_americana_map.svg/1280px-Melanitta_americana_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Melanitta_americana_Barnegat_NJ.jpg/1280px-Melanitta_americana_Barnegat_NJ.jpg",
+        },
+        {
+          commonNameEnglish: "Long-tailed Duck",
+          commonNameJapanese: "コオリガモ",
+          commonNameRomaji: "koorigamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Clangula hyemalis",
+          range: "Coasts of Holarctic region",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Clangula_hyemalis_map.svg/1280px-Clangula_hyemalis_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/8/8e/Long-tailed-duck.jpg",
+        },
+        {
+          commonNameEnglish: "Common Goldeneye",
+          commonNameJapanese: "ホオジロガモ",
+          commonNameRomaji: "hoojirogamo",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Bucephala clangula",
+          range:
+            "N Eurasia; winters to Mediterranean, Persian Gulf and s China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Bucephala_clangula_map.svg/1280px-Bucephala_clangula_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/3/34/Common_Goldeneye_%28Bucephala_clangula%29.jpg",
+        },
+        {
+          commonNameEnglish: "Smew",
+          commonNameJapanese: "ミコアイサ",
+          commonNameRomaji: "mikoaisa",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Mergellus albellus",
+          range: "N Eurasia; winters to North Africa, India and e China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/MergellusAlbellusIUCNver2018_2.png/1280px-MergellusAlbellusIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Zwergsaeger_maenchen_weibchen.jpg/800px-Zwergsaeger_maenchen_weibchen.jpg",
+        },
+        {
+          commonNameEnglish: "Common Merganser",
+          commonNameJapanese: "カワアイサ",
+          commonNameRomaji: "kawaaisa",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Mergus merganser",
+          range:
+            "Palearctic region; winters Mediterranean to n India and China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/MergusMerganserIUCNver2019-2.png/1280px-MergusMerganserIUCNver2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Mergus_merganser_-Sandwell_-England_-male-8.jpg/1280px-Mergus_merganser_-Sandwell_-England_-male-8.jpg",
+        },
+        {
+          commonNameEnglish: "Red-breasted Merganser",
+          commonNameJapanese: "ウミアイサ",
+          commonNameRomaji: "umiaisa",
+          order: "Anseriformes",
+          family: "Anatidae",
+          species: "Mergus serrator",
+          range:
+            "N Palearctic and n N America; winters s Palearctic and Mexico",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/MergusSerratorIUCN2018_2.png/1280px-MergusSerratorIUCN2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mergus_serrator_-New_Jersey_-USA_-winter-8.jpg/1280px-Mergus_serrator_-New_Jersey_-USA_-winter-8.jpg",
+        },
       ]);
     });
 };
