@@ -58,6 +58,7 @@ const Home = (props) => {
             <option value="Strigiformes">Strigiformes</option>
             <option value="Accipitriformes">Accipitriformes</option>
             <option value="Passeriformes">Passeriformes</option>
+            <option value="Anseriformes">Anseriformes</option>
           </select>
           <br></br>
           <button className="search" onClick={handleSearch}>
@@ -73,6 +74,7 @@ const Home = (props) => {
             <option value="Pandionidae">Pandionidae</option>
             <option value="Accipitridae">Accipitridae</option>
             <option value="Corvidae">Corvidae</option>
+            <option value="Anatidae">Anatidae</option>
           </select>
           <br></br>
           <button className="search" onClick={handleSearch}>
