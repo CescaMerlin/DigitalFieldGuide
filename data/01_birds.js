@@ -740,6 +740,56 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mergus_serrator_-New_Jersey_-USA_-winter-8.jpg/1280px-Mergus_serrator_-New_Jersey_-USA_-winter-8.jpg",
         },
+        {
+          commonNameEnglish: "Japanese Quail",
+          commonNameJapanese: "ウズラ",
+          commonNameRomaji: "uzura",
+          order: "Galliformes",
+          family: "Phasianidae",
+          species: "Coturnix japonica",
+          range: "E Palearctic; winters to SE Asia and e China",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Japanese_Quail.jpg/800px-Japanese_Quail.jpg",
+        },
+        {
+          commonNameEnglish: "Copper Pheasant",
+          commonNameJapanese: "コウライキジ",
+          commonNameRomaji: "kouraikiji",
+          order: "Galliformes",
+          family: "Phasianidae",
+          species: "Phasianus versicolor tanensis",
+          range: "Japan (central Honshu) and Izu Islands",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Phasianus_colchicus_map.svg/1280px-Phasianus_colchicus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/7/79/Male_and_female_pheasant.jpg",
+        },
+        {
+          commonNameEnglish: "Hazel Grouse",
+          commonNameJapanese: "エゾライチョウ",
+          commonNameRomaji: "ezoraichou",
+          order: "Galliformes",
+          family: "Phasianidae",
+          species: "Tetrastes bonasia vicinitas",
+          range: "Hokkaido",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tetrastes_bonasia_distribution_revise_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/f/fc/Tetrastes_bonasia.jpg",
+        },
+        {
+          commonNameEnglish: "Rock Ptarmigan",
+          commonNameJapanese: "ライチョウ",
+          commonNameRomaji: "raichou",
+          order: "Galliformes",
+          family: "Phasianidae",
+          species: "Lagopus muta japonica",
+          range: "Honshu",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/1/12/Rock_Ptarmigan_Lagopus_muta_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Rock_Ptarmigan_%28Lagopus_Muta%29.jpg/1280px-Rock_Ptarmigan_%28Lagopus_Muta%29.jpg",
+        },
       ]);
     });
 };
