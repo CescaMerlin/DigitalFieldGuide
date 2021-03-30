@@ -855,6 +855,77 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Black-necked_Grebe_Schwarzhalstaucher.jpg/1920px-Black-necked_Grebe_Schwarzhalstaucher.jpg",
         },
+        {
+          commonNameEnglish: "Japanese Wood Pigeon",
+          commonNameJapanese: "カラスバト",
+          commonNameRomaji: "karasubato",
+          order: "Columbiformes",
+          family: "Columbidae",
+          species: "Columba janthina",
+          range:
+            "Small islands sw of South Korea to Ryukyu Islands; Ogasawara (Bonin Islands) and Iwo (Volcano Islands)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Columba_janthina.JPG/1280px-Columba_janthina.JPG",
+        },
+        {
+          commonNameEnglish: "Oriental Turtle-Dove",
+          commonNameJapanese: "キジバト",
+          commonNameRomaji: "kijibato",
+          order: "Columbiformes",
+          family: "Columbidae",
+          species: "Streptopelia orientalis",
+          range:
+            "Central Siberia to China, Korea, Japan and Kuril Islands; Ryukyu Islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Orientalturtledove.JPG/1920px-Orientalturtledove.JPG",
+        },
+        {
+          commonNameEnglish: "Eurasian Collared-Dove",
+          commonNameJapanese: "シラコバト",
+          commonNameRomaji: "shirakobato",
+          order: "Columbiformes",
+          family: "Columbidae",
+          species: "Streptopelia decaocto",
+          range: "Europe to Middle East, India, Sri Lanka, w China and Korea.",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Streptopelia_decaocto_range_map.png/1920px-Streptopelia_decaocto_range_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Eurasian_collared-dove_%28Streptopelia_decaocto%29.jpg/800px-Eurasian_collared-dove_%28Streptopelia_decaocto%29.jpg",
+        },
+        {
+          commonNameEnglish: "Emerald Dove",
+          commonNameJapanese: "キンバト",
+          commonNameRomaji: "kinbato",
+          order: "Columbiformes",
+          family: "Columbidae",
+          species: "Chalcophaps indica",
+          range:
+            "India to southeastern China, south to the Philippines, Indonesia and western Papuan islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Chalcophaps_indica_-a_pair_in_captivity-8a.jpg/1280px-Chalcophaps_indica_-a_pair_in_captivity-8a.jpg",
+        },
+        {
+          commonNameEnglish: "White-bellied Green-Pigeon",
+          commonNameJapanese: "アオバト",
+          commonNameRomaji: "aobato",
+          order: "Columbiformes",
+          family: "Columbidae",
+          species: "Treron sieboldii",
+          range: "Japan, mountains of Taiwan and e China (Jiangsu and Fujian)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Treron_Sieboldii.jpg/1280px-Treron_Sieboldii.jpg",
+        },
+        {
+          commonNameEnglish: "Whistling Green-Pigeon",
+          commonNameJapanese: "ズアカアオバト",
+          commonNameRomaji: "zuakaaobato",
+          order: "Columbiformes",
+          family: "Columbidae",
+          species: "Treron formosae",
+          range: "Ryukyu Islands",
+          profilePic:
+            "https://farm8.staticflickr.com/7343/14158900014_23b46c143e_n.jpg",
+        },
       ]);
     });
 };
