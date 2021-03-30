@@ -790,6 +790,71 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Rock_Ptarmigan_%28Lagopus_Muta%29.jpg/1280px-Rock_Ptarmigan_%28Lagopus_Muta%29.jpg",
         },
+        {
+          commonNameEnglish: "Little Grebe",
+          commonNameJapanese: "カイツブリ",
+          commonNameRomaji: "kaitsuburi",
+          order: "Podicipediformes",
+          family: "Podicipedidae",
+          species: "Tachybaptus ruficollis poggei",
+          range: "SE to ne Asia, Hainan, Taiwan, Japan and s Kuril Islands",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/TachybaptusRuficollisIUCN2019-2.png/1280px-TachybaptusRuficollisIUCN2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Little_grebe_Zwergtaucher.jpg/1280px-Little_grebe_Zwergtaucher.jpg",
+        },
+        {
+          commonNameEnglish: "Horned Grebe",
+          commonNameJapanese: "ミミカイツブリ",
+          commonNameRomaji: "mimikaitsuburi",
+          order: "Podicipediformes",
+          family: "Podicipedidae",
+          species: "Podiceps auritus",
+          range: "Locally in Palearctic region",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Slavonian_Grebe-location-map-en.svg/1280px-Slavonian_Grebe-location-map-en.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Horned_grebe_%282%29_-_%28Podiceps_auritus%29.JPG/1280px-Horned_grebe_%282%29_-_%28Podiceps_auritus%29.JPG",
+        },
+        {
+          commonNameEnglish: "Red-necked Grebe",
+          commonNameJapanese: "アカエリカイツブリ",
+          commonNameRomaji: "akaerikaitsuburi",
+          order: "Podicipediformes",
+          family: "Podicipedidae",
+          species: "Podiceps grisegena holbollii",
+          range: "North America and ne Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/PodicepsGrisegenaIUCNver2019-2.png/1920px-PodicepsGrisegenaIUCNver2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Gr%C3%A8bejougrisparade.jpg/800px-Gr%C3%A8bejougrisparade.jpg",
+        },
+        {
+          commonNameEnglish: "Great Crested Grebe",
+          commonNameJapanese: "カンムリカイツブリ",
+          commonNameRomaji: "kanmurikaitsuburi",
+          order: "Podicipediformes",
+          family: "Podicipedidae",
+          species: "Podiceps cristatus",
+          range: "Palearctic region and s Oriental region",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/PodicepsCristatusIUCN2019-2.png/1280px-PodicepsCristatusIUCN2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Great_Crested_Grebe_1_-_Penrith.jpg/1920px-Great_Crested_Grebe_1_-_Penrith.jpg",
+        },
+        {
+          commonNameEnglish: "Black-necked Grebe",
+          commonNameJapanese: "ハジロカイツブリ",
+          commonNameRomaji: "hajirokaitsuburi",
+          order: "Podicipediformes",
+          family: "Podicipedidae",
+          species: "Podiceps nigricollis",
+          range: "Locally in Eurasia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/PodicepsNigricollisIUCNver2019-2.png/1920px-PodicepsNigricollisIUCNver2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Black-necked_Grebe_Schwarzhalstaucher.jpg/1920px-Black-necked_Grebe_Schwarzhalstaucher.jpg",
+        },
       ]);
     });
 };
