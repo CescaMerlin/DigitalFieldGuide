@@ -926,6 +926,117 @@ exports.seed = function (knex) {
           profilePic:
             "https://farm8.staticflickr.com/7343/14158900014_23b46c143e_n.jpg",
         },
+        {
+          commonNameEnglish: "Northern Hawk-Cuckoo",
+          commonNameJapanese: "キタジュウイチ",
+          commonNameRomaji: "kitajuuichi",
+          order: "Cuculiformes",
+          family: "Cuculidae",
+          species: "Hierococcyx hyperythrus",
+          range: "NE China to Korea, lower Yangtze Valley and s Japan",
+          profilePic:
+            "https://live.staticflickr.com/2338/2214115656_616f654144_n.jpg",
+        },
+        {
+          commonNameEnglish: "Lesser Cuckoo",
+          commonNameJapanese: "ホトトギス",
+          commonNameRomaji: "hototogisu",
+          order: "Cuculiformes",
+          family: "Cuculidae",
+          species: "Cuculus poliocephalus",
+          range:
+            "South and east Asia; winters pen. India, Sri Lanka and e Africa",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/4/48/Cuculus_poliocephalus.jpg",
+        },
+        {
+          commonNameEnglish: "Common Cuckoo",
+          commonNameJapanese: "カッコウ",
+          commonNameRomaji: "kakkou",
+          order: "Cuculiformes",
+          family: "Cuculidae",
+          species: "Cuculus canorus",
+          range: "Europe, Siberia to Kamchatka and Japan; winters to s Africa",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/CuculusCanorusIUCNver2019_3.png/1280px-CuculusCanorusIUCNver2019_3.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/1/14/Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791_cropped.jpg",
+        },
+        {
+          commonNameEnglish: "Oriental Cuckoo",
+          commonNameJapanese: "ツツドリ",
+          commonNameRomaji: "tsutsudori",
+          order: "Cuculiformes",
+          family: "Cuculidae",
+          species: "Cuculus optatus",
+          range:
+            "Russia to Siberia, n China, Korea, Japan; winters to Australia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/8/80/Oriental_Cuckoo_Maiala.JPG",
+        },
+        {
+          commonNameEnglish: "Grey Nightjar",
+          commonNameJapanese: "ヨタカ",
+          commonNameRomaji: "yotaka",
+          order: "Caprimulgiformes",
+          family: "Caprimulgidae",
+          species: "Caprimulgus jotaka",
+          range:
+            "SE Siberia to e China, Japan and Korea; winters to Gr. Sundas",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/f/f5/Grey_Nightjar.jpg",
+        },
+        {
+          commonNameEnglish: "White-throated Needletail",
+          commonNameJapanese: "ハリオアマツバメ",
+          commonNameRomaji: "harioamatsubame",
+          order: "Apodiformes",
+          family: "Apodidae",
+          species: "Hirundapus caudacutus",
+          range: "Siberia to Japan and Kuril Islands.; winters to Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HirundapusCaudacutusDistribution.png/1024px-HirundapusCaudacutusDistribution.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/4/44/White-throated_needletail_Hunting_over_Wolotschajewka_Perwaja_%28cropped%29.jpg",
+        },
+        {
+          commonNameEnglish: "Pacific Swift",
+          commonNameJapanese: "アマツバメ",
+          commonNameRomaji: "amatsubame",
+          order: "Apodiformes",
+          family: "Apodidae",
+          species: "Apus pacificus",
+          range:
+            "Siberia to Kamchatka, n China and n Japan; winters Indonesia, Melanesia, Australia, Tasmania",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Apuspacificuspacificus.png/800px-Apuspacificuspacificus.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Pacific_Swift.jpg/1280px-Pacific_Swift.jpg",
+        },
+        {
+          commonNameEnglish: "House Swift",
+          commonNameJapanese: "ヒメアマツバメ",
+          commonNameRomaji: "himeamatsubame",
+          order: "Apodiformes",
+          family: "Apodidae",
+          species: "Apus nipalensis",
+          range: "Nepal to se China, Myanmar, Thailand, Indochina, Philippines",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/8/8d/House_Swift.jpg",
+        },
+        {
+          commonNameEnglish: "Brown-cheeked Rail",
+          commonNameJapanese: "クイナ",
+          commonNameRomaji: "kuina",
+          order: "Gruiformes",
+          family: "Rallidae",
+          species: "Rallus indicus",
+          range: "E Siberia to Japan; winters to SE Asia and Borneo",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Rallus_indicus_distribution_map.svg/800px-Rallus_indicus_distribution_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/The_brown-cheeked_rail_or_eastern_water_rail.jpg/1280px-The_brown-cheeked_rail_or_eastern_water_rail.jpg",
+        },
       ]);
     });
 };
