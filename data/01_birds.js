@@ -1037,6 +1037,152 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/The_brown-cheeked_rail_or_eastern_water_rail.jpg/1280px-The_brown-cheeked_rail_or_eastern_water_rail.jpg",
         },
+        {
+          commonNameEnglish: "Okinawa Rail",
+          commonNameJapanese: "ヤンバルクイナ",
+          commonNameRomaji: "yanbarukuina",
+          order: "Gruiformes",
+          family: "Rallidae",
+          species: "Hypotaenidia okinawae",
+          range: "Swamps of n Okinawa I. (s Ryukyu Islands)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/e/e4/Okinawa_Rail.jpg",
+        },
+        {
+          commonNameEnglish: "Common Moorhen",
+          commonNameJapanese: "バン",
+          commonNameRomaji: "ban",
+          order: "Gruiformes",
+          family: "Rallidae",
+          species: "Gallinula chloropus",
+          range: "Palearctic; winters to Arabia and s China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/GallinulaChloropusIUCNver2019-2.png/1280px-GallinulaChloropusIUCNver2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/e/e9/Common_moorhen_%28Gallinula_chloropus%29_Photograph_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Coot",
+          commonNameJapanese: "オオバン",
+          commonNameRomaji: "ooban",
+          order: "Gruiformes",
+          family: "Rallidae",
+          species: "Fulica atra",
+          range: "Palearctic; winters to Africa, Indonesia and Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/FulicaAtraIUCN2019_2.png/1280px-FulicaAtraIUCN2019_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fulica_atra%2C_Bl%C3%A4sshuhn_am_Adenauer-Weiher.jpg/1280px-Fulica_atra%2C_Bl%C3%A4sshuhn_am_Adenauer-Weiher.jpg",
+        },
+        {
+          commonNameEnglish: "Watercock",
+          commonNameJapanese: "ツルクイナ",
+          commonNameRomaji: "tsurukuina",
+          order: "Gruiformes",
+          family: "Rallidae",
+          species: "Gallicrex cinerea",
+          range: "Lowlands of s and e Asia and Malay Archipelago",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/e/eb/Gallicrex_cinerea_-Basai_Wetlands%2C_near_Gurgaon%2C_Haryana%2C_India-8.jpg",
+        },
+        {
+          commonNameEnglish: "Slaty-legged Crake",
+          commonNameJapanese: "オオクイナ",
+          commonNameRomaji: "ookuina",
+          order: "Gruiformes",
+          family: "Rallidae",
+          species: "Rallina eurizonoides sepiaria",
+          range: "Ryukyu Islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/01/Slaty-legged_crake_%28Rallina_eurizonoides%29_Photograph_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Ruddy-breasted Crake",
+          commonNameJapanese: "ヒクイナ",
+          commonNameRomaji: "hikuina",
+          order: "Gruiformes",
+          family: "Rallidae",
+          species: "Zapornia fusca",
+          range:
+            "Ryukyu Islands, Japan, e China, Manchuria, Indochina and Taiwan",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/a/ac/Ruddy-breasted_Crake_%28Porzana_fusca%29_in_Kolkata_I_IMG_2675.jpg",
+        },
+        {
+          commonNameEnglish: "White-naped Crane",
+          commonNameJapanese: "マナヅル",
+          commonNameRomaji: "manazuru",
+          order: "Gruiformes",
+          family: "Gruidae",
+          species: "Antigone vipio",
+          range: "Siberia and Manchuria; winters to s China, Korea and Japan",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/White-naped_Crane_at_Saijyo_Ehime2.jpg/800px-White-naped_Crane_at_Saijyo_Ehime2.jpg",
+        },
+        {
+          commonNameEnglish: "Common Crane",
+          commonNameJapanese: "クロヅル",
+          commonNameRomaji: "kurozuru",
+          order: "Gruiformes",
+          family: "Gruidae",
+          species: "Grus grus",
+          range: "Breeds n Eurasia; winters to n Africa, s India and SE Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/6/60/Distribuci%C3%B3n_grullas.jpg",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Common_crane_grus_grus.jpg/1024px-Common_crane_grus_grus.jpg",
+        },
+        {
+          commonNameEnglish: "Hooded Crane",
+          commonNameJapanese: "ナベヅル",
+          commonNameRomaji: "nabezuru",
+          order: "Gruiformes",
+          family: "Gruidae",
+          species: "Grus monacha",
+          range:
+            "Siberia and nw Manchuria; winters to e China, Korea, and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/3/33/Grus_monacha_distribution.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Grus_monacha_-Kyushu%2C_Japan_-three-8.jpg/1280px-Grus_monacha_-Kyushu%2C_Japan_-three-8.jpg",
+        },
+        {
+          commonNameEnglish: "Red-crowned Crane",
+          commonNameJapanese: "タンチョウ",
+          commonNameRomaji: "tanchou",
+          order: "Gruiformes",
+          family: "Gruidae",
+          species: "Grus japonensis",
+          range: "Siberia, Hokkaido and Mongolia; winters e China and Korea",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg/1280px-Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg",
+        },
+        {
+          commonNameEnglish: "Black-winged Stilt",
+          commonNameJapanese: "セイタカシギ",
+          commonNameRomaji: "seitakashigi",
+          order: "Charadriiformes",
+          family: "Recurvirostridae",
+          species: "Himantopus himantopus",
+          range: "Mediterranean and sub-Saharan Africa to SE Asia and Taiwan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/HimantopusHimantopusIUCN2019-3.png/1280px-HimantopusHimantopusIUCN2019-3.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Black-winged_stilt_%28Himantopus_himantopus%29.jpg/1280px-Black-winged_stilt_%28Himantopus_himantopus%29.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Oystercatcher",
+          commonNameJapanese: "ミヤコドリ",
+          commonNameRomaji: "miyakodori",
+          order: "Charadriiformes",
+          family: "Haematopodidae",
+          species: "Haematopus ostralegus osculans",
+          range: "Kamchatka Peninsula and North Korea; winters e China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/d/dd/Haematopus_ostralegus_distr.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Haematopus_ostralegus_Norway.jpg/699px-Haematopus_ostralegus_Norway.jpg",
+        },
       ]);
     });
 };

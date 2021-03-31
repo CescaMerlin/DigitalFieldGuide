@@ -66,6 +66,7 @@ const Home = (props) => {
             <option value="Caprimulgiformes">Caprimulgiformes</option>
             <option value="Apodiformes">Apodiformes</option>
             <option value="Gruiformes">Gruiformes</option>
+            <option value="Charadriiformes">Charadriiformes</option>
           </select>
           <br></br>
           <button className="search" onClick={handleSearch}>
@@ -89,6 +90,9 @@ const Home = (props) => {
             <option value="Caprimulgidae">Caprimulgidae</option>
             <option value="Apodidae">Apodidae</option>
             <option value="Rallidae">Rallidae</option>
+            <option value="Gruidae">Gruidae</option>
+            <option value="Recurvirostridae">Recurvirostridae</option>
+            <option value="Haematopodidae">Haematopodidae</option>
           </select>
           <br></br>
           <button className="search" onClick={handleSearch}>
