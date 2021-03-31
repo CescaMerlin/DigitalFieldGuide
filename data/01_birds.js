@@ -1183,6 +1183,193 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Haematopus_ostralegus_Norway.jpg/699px-Haematopus_ostralegus_Norway.jpg",
         },
+        {
+          commonNameEnglish: "Grey Plover",
+          commonNameJapanese: "ダイゼン",
+          commonNameRomaji: "daizen",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Pluvialis squatarola",
+          range: "Holarctic; almost cosmopolitan post-breeding dispersal",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Pluvialis_squatarola_map.svg/1280px-Pluvialis_squatarola_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Pluvialis_squatarola_%28summer_plumage%29.jpg/1280px-Pluvialis_squatarola_%28summer_plumage%29.jpg",
+        },
+        {
+          commonNameEnglish: "Pacific Golden-Plover",
+          commonNameJapanese: "ムナグロ",
+          commonNameRomaji: "munaguro",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Pluvialis fulva",
+          range:
+            "breeds Siberia and W Alaska; winters from E Africa to S Asia (E to S China) and the Hawaiian Islands, S through Asia and the tropical Paficic to Australia and New Zealand",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/PluvialisFulvaIUCNver2018_2.png/1280px-PluvialisFulvaIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pluvialis_fulva_-Bering_Land_Bridge_National_Preserve%2C_Alaska%2C_USA-8.jpg",
+        },
+        {
+          commonNameEnglish: "Northern Lapwing",
+          commonNameJapanese: "タゲリ",
+          commonNameRomaji: "tageri",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Vanellus vanellus",
+          range: "Palearctic; winters to n Africa, India, Myanmar and s China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Northern_Lapwing.png/1280px-Northern_Lapwing.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Northern-Lapwing-Vanellus-vanellus.jpg/1280px-Northern-Lapwing-Vanellus-vanellus.jpg",
+        },
+        {
+          commonNameEnglish: "Grey-headed Lapwing",
+          commonNameJapanese: "ケリ",
+          commonNameRomaji: "keri",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Vanellus cinereus",
+          range: "Breeds ne China and Japan; winters to India and SE Asia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Vanellus_cinereus.JPG/1024px-Vanellus_cinereus.JPG",
+        },
+        {
+          commonNameEnglish: "Lesser Sand-Plover",
+          commonNameJapanese: "メダイチドリ",
+          commonNameRomaji: "medaichidori",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Charadrius mongolus",
+          range: "E Siberia and Russian Far East; winters Taiwan to Australia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Charadrius_mongolus_-_Laem_Phak_Bia.jpg/1280px-Charadrius_mongolus_-_Laem_Phak_Bia.jpg",
+        },
+        {
+          commonNameEnglish: "Greater Sand Plover",
+          commonNameJapanese: "オオメダイチドリ",
+          commonNameRomaji: "oomedaichidori",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Charadrius leschenaultii",
+          range: "W China to s Mongolia and s Siberia; winters Australasia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Greater_Sand_Plover_1_-_Lee_Point.jpg/1280px-Greater_Sand_Plover_1_-_Lee_Point.jpg",
+        },
+        {
+          commonNameEnglish: "Kentish Plover",
+          commonNameJapanese: "シロチドリ",
+          commonNameRomaji: "shirochidori",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Charadrius alexandrinus",
+          range:
+            "breeds W Palearctic to E China, S Japan, and Ryukyu Islands; winters to Africa, S Asia, the Philippines, Indonesia, and Borneo",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/CharadriusAlexandrinusIUCNver2018_2.png/1280px-CharadriusAlexandrinusIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/a/ab/Kentish_plover_%28Charadrius_alexandrinus%29_Photograph_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Common Ringed Plover",
+          commonNameJapanese: "ハジロコチドリ",
+          commonNameRomaji: "hajirokochidori",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Charadrius hiaticula",
+          range:
+            "breeds NE arctic Canada, Greenland, Iceland, Spitsbergen, and S Scandanavia south to France; primarily winters W Africa",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Charadrius_hiaticula_map.svg/1280px-Charadrius_hiaticula_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Charadrius_hiaticula_tundrae_Varanger.jpg/800px-Charadrius_hiaticula_tundrae_Varanger.jpg",
+        },
+        {
+          commonNameEnglish: "Long-billed Plover",
+          commonNameJapanese: "イカルチドリ",
+          commonNameRomaji: "ikaruchidori",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Charadrius placidus",
+          range: "Breeds e Asia; winters to India and Indochina",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/9/9d/Charadrius_placidus_japonicus.JPG",
+        },
+        {
+          commonNameEnglish: "Little Ringed Plover",
+          commonNameJapanese: "コチドリ",
+          commonNameRomaji: "kochidori",
+          order: "Charadriiformes",
+          family: "Charadriidae",
+          species: "Charadrius dubius",
+          range: "Palearctic; winters to Africa, Arabia, e China and Indonesia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/CharadriusDubiusIUCN2019-3.png/1280px-CharadriusDubiusIUCN2019-3.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/1/16/Little_ringed_plover_%28Charadrius_dubius%29_Photograph_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Greater Painted-snipe",
+          commonNameJapanese: "タマシギ",
+          commonNameRomaji: "tamashigi",
+          order: "Charadriiformes",
+          family: "Rostratulidae",
+          species: "Rostratula benghalensis",
+          range: "Locally in Africa, Madagascar and Oriental region",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/2/2d/Rostratula_benghalensis_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/3/3b/Greater_Painted-snipe_%28Female%29_I2_IMG_9477.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Whimbrel",
+          commonNameJapanese: "チュウシャクシギ",
+          commonNameRomaji: "chuushakushigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Numenius phaeopus variegatus",
+          range:
+            "Siberia; winters to India, Philippines, Indonesia and Australia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Whimbrel_-_Lee_Point_Reserve.jpg/1280px-Whimbrel_-_Lee_Point_Reserve.jpg",
+        },
+        {
+          commonNameEnglish: "Far Eastern Curlew",
+          commonNameJapanese: "ホウロクシギ",
+          commonNameRomaji: "hourokushigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Numenius madagascariensis",
+          range:
+            "Breeds ne Asia; winters to Philippines, Indonesia and Australia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Numenius_madagascariensis_1_-_Stockton_Sandspit.jpg/1280px-Numenius_madagascariensis_1_-_Stockton_Sandspit.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Curlew",
+          commonNameJapanese: "ダイシャクシギ",
+          commonNameRomaji: "daishakushigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Numenius arquata orientalis",
+          range:
+            "E Russia, Manchuria; winters to Africa, SE Asia and Indonesia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Eurasian_Curlew_Range.png/1280px-Eurasian_Curlew_Range.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Eurasian_Curlew.jpg/1024px-Eurasian_Curlew.jpg",
+        },
+        {
+          commonNameEnglish: "Bar-tailed Godwit",
+          commonNameJapanese: "オオソリハシシギ",
+          commonNameRomaji: "oosorihashishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Limosa lapponica",
+          range: "NE Siberia to w Alaska; winters China to New Zealand",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bar-tailed_Godwit.jpg/1280px-Bar-tailed_Godwit.jpg",
+        },
       ]);
     });
 };
