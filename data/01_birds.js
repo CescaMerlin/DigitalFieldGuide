@@ -1370,6 +1370,402 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bar-tailed_Godwit.jpg/1280px-Bar-tailed_Godwit.jpg",
         },
+        {
+          commonNameEnglish: "Black-tailed Godwit",
+          commonNameJapanese: "オグロシギ",
+          commonNameRomaji: "oguroshigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Limosa limosa",
+          range: "Palearctic; winters to sub-Saharan Africa and India",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/LimosalimosaWorldDistribution.jpg/1280px-LimosalimosaWorldDistribution.jpg",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Black-tailed_Godwit_Uferschnepfe.jpg/1024px-Black-tailed_Godwit_Uferschnepfe.jpg",
+        },
+        {
+          commonNameEnglish: "Ruddy Turnstone",
+          commonNameJapanese: "キョウジョシギ",
+          commonNameRomaji: "oguroshigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Arenaria interpres",
+          range:
+            "Alaska, n N Am. and n Eurasia, winters to Africa, Australasia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Arenaria_interpres_map.svg/1280px-Arenaria_interpres_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Arenaria_interpres_%28habitus%29.jpg/1280px-Arenaria_interpres_%28habitus%29.jpg",
+        },
+        {
+          commonNameEnglish: "Great Knot",
+          commonNameJapanese: "オバシギ",
+          commonNameRomaji: "obashigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris tenuirostris",
+          range:
+            "NE Siberia; winters to India, SE Asia, Philippines and Australia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Calidris_tenuirostris_-_Laem_Phak_Bia.jpg/1280px-Calidris_tenuirostris_-_Laem_Phak_Bia.jpg",
+        },
+        {
+          commonNameEnglish: "Ruff",
+          commonNameJapanese: "エリマキシギ",
+          commonNameRomaji: "erimakishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris pugnax",
+          range:
+            "Breeds n Palearctic; winters to s Africa, s Asia and Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d2/Philomachuspugnaxmap.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Philomachus_pugnax_-Diergaarde_Blijdorp-8c.jpg/1280px-Philomachus_pugnax_-Diergaarde_Blijdorp-8c.jpg",
+        },
+        {
+          commonNameEnglish: "Broad-billed Sandpiper",
+          commonNameJapanese: "キリアイ",
+          commonNameRomaji: "kiriai",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris falcinellus sibirica",
+          range:
+            "N Russia; winters to India, SE Asia, Philippines and Australia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Broad_billed_sandpiper_by_Sreedev_Puthur.jpg/1280px-Broad_billed_sandpiper_by_Sreedev_Puthur.jpg",
+        },
+        {
+          commonNameEnglish: "Sharp-tailed Sandpiper",
+          commonNameJapanese: "ウズラシギ",
+          commonNameRomaji: "kiriai",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris acuminata",
+          range: "Breeds ne Siberia; winters in Australasia and Polynesia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Calidris_acuminata_map.svg/1280px-Calidris_acuminata_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Calidris_acuminata_-_Hexham_Swamp.jpg/1280px-Calidris_acuminata_-_Hexham_Swamp.jpg",
+        },
+        {
+          commonNameEnglish: "Curlew Sandpiper",
+          commonNameJapanese: "サルハマシギ",
+          commonNameRomaji: "saruhamashigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris ferruginea",
+          range: "Arctic Siberia; winters to s Africa, SE Asia and Australasia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Calidris_ferruginea_map.svg/1280px-Calidris_ferruginea_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Calidris_ferruginea%2C_winter_adult%2C_Pak_Thale.jpg/1280px-Calidris_ferruginea%2C_winter_adult%2C_Pak_Thale.jpg",
+        },
+        {
+          commonNameEnglish: "Temminck's Stint",
+          commonNameJapanese: "オジロトウネン",
+          commonNameRomaji: "ojirotounen",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris temminckii",
+          range: "N Palearctic; winters to Africa, Indonesia and Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/1/14/CalidrisTemminckiiIUCN2019_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Temmincks_Stint.jpg/1280px-Temmincks_Stint.jpg",
+        },
+        {
+          commonNameEnglish: "Long-toed Stint",
+          commonNameJapanese: "ヒバリシギ",
+          commonNameRomaji: "hibarishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris subminuta",
+          range: "NE Palearctic; winters SE Asia to Philippines and Australia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/c/cf/Calidris_subminuta_-_Pak_Thale.jpg",
+        },
+        {
+          commonNameEnglish: "Red-necked Stint",
+          commonNameJapanese: "トウネン",
+          commonNameRomaji: "tounen",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris ruficollis",
+          range:
+            "Breeds Siberia and Alaska; disperses to s Asia and Australasia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Red-necked_Stint.jpg/800px-Red-necked_Stint.jpg",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Red-necked_Stint_-_Boat_Harbour.jpg/1280px-Red-necked_Stint_-_Boat_Harbour.jpg",
+        },
+        {
+          commonNameEnglish: "Sanderling",
+          commonNameJapanese: "ミユビシギ",
+          commonNameRomaji: "miyubishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris alba",
+          range: "Breeds Holarctic; worldwide coastal post-breeding dispersal",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/b/b7/Arcticsanderling.jpg",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Calidris_alba_-_Laem_Phak_Bia.jpg/1280px-Calidris_alba_-_Laem_Phak_Bia.jpg",
+        },
+        {
+          commonNameEnglish: "Dunlin",
+          commonNameJapanese: "ハマシギ",
+          commonNameRomaji: "hamashigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris alpina arcticola",
+          range: "NW Alaska and nw Canada; winters e China, Korea and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CalidrisAlpinaIUCNver2018_2.png/1280px-CalidrisAlpinaIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Dunlin_easton_bavents.jpg/1280px-Dunlin_easton_bavents.jpg",
+        },
+        {
+          commonNameEnglish: "Rock Sandpiper",
+          commonNameJapanese: "チシマシギ",
+          commonNameRomaji: "chishimashigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Calidris ptilocnemis tschuktschorum",
+          range: "Chukotsk Pen. to w Alaska; winters nw N Am. and e Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Calidris_ptilocnemis_map.svg/1280px-Calidris_ptilocnemis_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Calidris_ptilocnemis1.jpg/1280px-Calidris_ptilocnemis1.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Woodcock",
+          commonNameJapanese: "ヤマシギ",
+          commonNameRomaji: "yamashigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Scolopax rusticola",
+          range: "Locally in moist woodlands and bogs of Eurasia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/ScolopaxRusticolaIUCNver2019-2.png/1280px-ScolopaxRusticolaIUCNver2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/1/1c/Woodcock_earthworm.jpg",
+        },
+        {
+          commonNameEnglish: "Amami Woodcock",
+          commonNameJapanese: "アマミヤマシギ",
+          commonNameRomaji: "amamiyamashigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Scolopax mira",
+          range: "Amami-O-Shima, Tokuno-Shima, Okinawa, Tokashiki-Shima",
+          profilePic:
+            "https://live.staticflickr.com/1908/44160527504_13589e48a8_n.jpg",
+        },
+        {
+          commonNameEnglish: "Solitary Snipe",
+          commonNameJapanese: "アオシギ",
+          commonNameRomaji: "aoshigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Gallinago solitaria japonica",
+          range: "Sakhalin and ne China; winters Korea, Japan and e China",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/1/1f/Solitary_Snipe_Paro_River_Bhutan.jpg",
+        },
+        {
+          commonNameEnglish: "Latham's Snipe",
+          commonNameJapanese: "オオジシギ",
+          commonNameRomaji: "oojishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Gallinago hardwickii",
+          range:
+            "Sakhalin and Japan; winters e Australia, Tasmania, New Guinea",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/b/b9/Latham%27s_snipe.jpg",
+        },
+        {
+          commonNameEnglish: "Common Snipe",
+          commonNameJapanese: "タシギ",
+          commonNameRomaji: "tashigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Gallinago gallinago",
+          range:
+            "N Palearctic and Aleutians; winters to Africa, India, Indonesia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/GallinagoGallinagoIUCNver2019-2.png/1280px-GallinagoGallinagoIUCNver2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Gallinago_gallinago_a1.JPG/1024px-Gallinago_gallinago_a1.JPG",
+        },
+        {
+          commonNameEnglish: "Pintail Snipe",
+          commonNameJapanese: "ハリオシギ",
+          commonNameRomaji: "harioshigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Gallinago stenura",
+          range: "Siberia; winters India to SE Asia, Indonesia and Philippines",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Gallinago_stenura_-_Laem_Pak_Bia.jpg/1280px-Gallinago_stenura_-_Laem_Pak_Bia.jpg",
+        },
+        {
+          commonNameEnglish: "Swinhoe's Snipe",
+          commonNameJapanese: "チュウジシギ",
+          commonNameRomaji: "chuujishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Gallinago megala",
+          range:
+            "Siberia; winters India to SE Asia, Philippines and n Australia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/2/23/Gallinago_megala.jpg",
+        },
+        {
+          commonNameEnglish: "Terek Sandpiper",
+          commonNameJapanese: "ソリハシシギ",
+          commonNameRomaji: "sorihashishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Xenus cinereus",
+          range:
+            "N Eurasia; winters to s Africa, s Asia, Philippines, n Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/XenusCinereusIUCN.png/1280px-XenusCinereusIUCN.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/1/17/Xenus_cinereus_%28Alnus%29.jpg",
+        },
+        {
+          commonNameEnglish: "Red-necked Phalarope",
+          commonNameJapanese: "アカエリヒレアシシギ",
+          commonNameRomaji: "akaerihireashishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Phalaropus lobatus",
+          range: "Holarctic circumpolar; winters at sea in southern hemisphere",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Phalaropus_lobatus_distribution.png/1280px-Phalaropus_lobatus_distribution.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Red-necked_Phalarope.jpg/1280px-Red-necked_Phalarope.jpg",
+        },
+        {
+          commonNameEnglish: "Red Phalarope",
+          commonNameJapanese: "ハイイロヒレアシシギ",
+          commonNameRomaji: "haiirohireashishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Phalaropus fulicarius",
+          range: "Holarctic circumpolar; winters at sea in southern hemisphere",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Phalaropus_fulicarius_distribution.png/800px-Phalaropus_fulicarius_distribution.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Phalaropus_fulicarius_10.jpg/1280px-Phalaropus_fulicarius_10.jpg",
+        },
+        {
+          commonNameEnglish: "Common Sandpiper",
+          commonNameJapanese: "イソシギ",
+          commonNameRomaji: "isoshigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Actitis hypoleucos",
+          range:
+            "Palearctic; winters to s Africa, c Asia, Philippines and Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/ActitisHypoleucosIUCNver2018_2.png/1280px-ActitisHypoleucosIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Actitis_hypoleucos_-_Laem_Pak_Bia.jpg/1280px-Actitis_hypoleucos_-_Laem_Pak_Bia.jpg",
+        },
+        {
+          commonNameEnglish: "Green Sandpiper",
+          commonNameJapanese: "クサシギ",
+          commonNameRomaji: "kusashigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Tringa ochropus",
+          range:
+            "N Eurasia; winters to s Africa, s Asia, Philippines and Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/TringaOchropusIUCNver2019-2.png/1280px-TringaOchropusIUCNver2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Green_sandpiper_%28Tringa_ochropus%29.jpg/1280px-Green_sandpiper_%28Tringa_ochropus%29.jpg",
+        },
+        {
+          commonNameEnglish: "Grey-tailed Tattler",
+          commonNameJapanese: "キアシシギ",
+          commonNameRomaji: "kiashishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Tringa brevipes",
+          range: "Mountains of Siberia; winters to SE Asia and Australasia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/9/9f/Tringa_brevipes2.jpg",
+        },
+        {
+          commonNameEnglish: "Spotted Redshank",
+          commonNameJapanese: "ツルシギ",
+          commonNameRomaji: "tsurushigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Tringa erythropus",
+          range: "Breeds n Eurasia; winters Mediterranean region to SE Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/TringaErythropusIUCN.png/1280px-TringaErythropusIUCN.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Tringa_erythropus_-_Laem_Pak_Bia.jpg/1280px-Tringa_erythropus_-_Laem_Pak_Bia.jpg",
+        },
+        {
+          commonNameEnglish: "Common Greenshank",
+          commonNameJapanese: "アオアシシギ",
+          commonNameRomaji: "aoashishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Tringa nebularia",
+          range:
+            "Palearctic; winters to s Africa, s Asia, Philippines and Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/TringaNebulariaIUCNver2018_2.png/1280px-TringaNebulariaIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Greenshank_%28Tringa_nebularia%29.jpg/1280px-Greenshank_%28Tringa_nebularia%29.jpg",
+        },
+        {
+          commonNameEnglish: "Marsh Sandpiper",
+          commonNameJapanese: "コアオアシシギ",
+          commonNameRomaji: "koaoashishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Tringa stagnatillis",
+          range: "Palearctic; winters to s Africa, s Asia and Australasia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/TringaStagnatilisIUCNver2018_2.png/1280px-TringaStagnatilisIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Tringa_stagnatilis_2_-_Laem_Pak_Bia.jpg/1280px-Tringa_stagnatilis_2_-_Laem_Pak_Bia.jpg",
+        },
+        {
+          commonNameEnglish: "Wood Sandpiper",
+          commonNameJapanese: "タガブシギ",
+          commonNameRomaji: "takabushigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Tringa glareola",
+          range: "Breeds n Eurasia; winters to s Africa, s Asia and Australia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Wood_Sandpiper_Safari_Park.jpg/800px-Wood_Sandpiper_Safari_Park.jpg",
+        },
+        {
+          commonNameEnglish: "Common Redshank",
+          commonNameJapanese: "アカアシシギ",
+          commonNameRomaji: "akaashishigi",
+          order: "Charadriiformes",
+          family: "Scolopacidae",
+          species: "Tringa totanus",
+          range:
+            "Scandinavia to Iberia; winters to Africa, India and Indonesia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/TringaTotanusIUCN2019_2.png/1280px-TringaTotanusIUCN2019_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Common_Redshank_Tringa_totanus.jpg/1280px-Common_Redshank_Tringa_totanus.jpg",
+        },
       ]);
     });
 };
