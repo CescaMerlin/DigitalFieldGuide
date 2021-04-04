@@ -3058,6 +3058,165 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/BlackWoods.jpg/1280px-BlackWoods.jpg",
         },
+        {
+          commonNameEnglish: "Common Kestrel",
+          commonNameJapanese: "チョウゲンボウ",
+          commonNameRomaji: "chougenbou",
+          order: "Falconiformes",
+          family: "Falconidae",
+          species: "Falco tinnunculus interstinctus",
+          range:
+            "Tibet to China and Japan; winters to India, Malaya, Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/European_Kestrel_Distribution.png/1280px-European_Kestrel_Distribution.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Common_kestrel_falco_tinnunculus.jpg/800px-Common_kestrel_falco_tinnunculus.jpg",
+        },
+        {
+          commonNameEnglish: "Merlin",
+          commonNameJapanese: "コチョウゲンボウ",
+          commonNameRomaji: "kochougenbou",
+          order: "Falconiformes",
+          family: "Falconidae",
+          species: "Falco columbarius pacificus",
+          range: "NE Asia and Sakhalin",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/e/ee/Falco_columbarius_distribution_map.png",
+          profilePic:
+            "https://farm8.staticflickr.com/7222/7206365312_3fe6b7a05d_n.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Hobby",
+          commonNameJapanese: "チゴハヤブサ",
+          commonNameRomaji: "chigohayabusa",
+          order: "Falconiformes",
+          family: "Falconidae",
+          species: "Falco subbuteo",
+          range:
+            "Palearctic; winters to s Africa, s Eurasia and Greater Sundas",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/FalcoSubbuteoIUCNver2019_2.png/1280px-FalcoSubbuteoIUCNver2019_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Eurasian_Hobby_%2814574008925%29_%28cropped%29.jpg/1280px-Eurasian_Hobby_%2814574008925%29_%28cropped%29.jpg",
+        },
+        {
+          commonNameEnglish: "Gyrfalcon",
+          commonNameJapanese: "シロハヤブサ",
+          commonNameRomaji: "shirohayabusa",
+          order: "Falconiformes",
+          family: "Falconidae",
+          species: "Falco rusticolus",
+          range:
+            "Mountains and tundra of n Palearctic region and n North America",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Falco_rusticolus_white_cropped.jpg/800px-Falco_rusticolus_white_cropped.jpg",
+        },
+        {
+          commonNameEnglish: "Peregrine Falcon",
+          commonNameJapanese: "バアバリアハヤブサ",
+          commonNameRomaji: "baabariahayabusa",
+          order: "Falconiformes",
+          family: "Falconidae",
+          species: "Falco peregrinus japonensis",
+          range: "NE Siberia to Kamchatka Peninsula and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/PeregrineRangeMap.png/1280px-PeregrineRangeMap.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/9/9a/Falco_peregrinus_good_-_Christopher_Watson.jpg",
+        },
+        {
+          commonNameEnglish: "Fairy Pitta",
+          commonNameJapanese: "ヤイロチョウ",
+          commonNameRomaji: "yairochou",
+          order: "Passeriformes",
+          family: "Pittidae",
+          species: "Pitta nympha",
+          range: "S Japan to Korea and se China; winters to SE Asia and Borneo",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/f/fe/Fairy_Pitta_3952%2C_crop.jpg",
+        },
+        {
+          commonNameEnglish: "Ryukyu Minivet",
+          commonNameJapanese: "リュウキュウサンショウクイ",
+          commonNameRomaji: "ryuukyuusanshoukui",
+          order: "Passeriformes",
+          family: "Campephagidae",
+          species: "Pericrocotus tegimae",
+          range: "S Kyushu and Ryukyu Islands (s Japan)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Pericrocotus_divaricatus_tegimae.jpg/1280px-Pericrocotus_divaricatus_tegimae.jpg",
+        },
+        {
+          commonNameEnglish: "Ashy Minivet",
+          commonNameJapanese: "サンショウクイ",
+          commonNameRomaji: "sanshoukui",
+          order: "Passeriformes",
+          family: "Campephagidae",
+          species: "Pericrocotus divaricatus",
+          range: "NE Asia; >Philippines and Indonesia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Ashy_Minivet_by_Jason_Thompson_%28Cropped%29.jpg/800px-Ashy_Minivet_by_Jason_Thompson_%28Cropped%29.jpg",
+        },
+        {
+          commonNameEnglish: "Black-naped Oriole",
+          commonNameJapanese: "コウライウグイス",
+          commonNameRomaji: "kouraiuguisu",
+          order: "Passeriformes",
+          family: "Oriolidae",
+          species: "Oriolus chinensis diffusus",
+          range:
+            "breeds east Asia; winters from India to Indochina and the Thai-Malay Peninsula",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/3/3f/Black-naped_Oriole_eyeing_on_Lannea_coromandelica_fruits_W_IMG_7449.jpg",
+        },
+        {
+          commonNameEnglish: "Tiger Shrike",
+          commonNameJapanese: "チゴモズ",
+          commonNameRomaji: "chigomozu",
+          order: "Passeriformes",
+          family: "Laniidae",
+          species: "Lanius tigrinus",
+          range: "NE Asia; > to SE Asia, Greater Sundas and Philippines",
+          profilePic:
+            "https://farm9.staticflickr.com/8175/8035659141_1b76cdaa05_n.jpg",
+        },
+        {
+          commonNameEnglish: "Bull-headed Shrike",
+          commonNameJapanese: "モズ",
+          commonNameRomaji: "mozu",
+          order: "Passeriformes",
+          family: "Laniidae",
+          species: "Lanius bucephalus",
+          range: "E Asia, Japan, Korea and ne China",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/8/87/Lanius_bucephalus.JPG",
+        },
+        {
+          commonNameEnglish: "Brown Shrike",
+          commonNameJapanese: "アカモズ",
+          commonNameRomaji: "akamozu",
+          order: "Passeriformes",
+          family: "Laniidae",
+          species: "Lanius cristatus supercillosus",
+          range: "S Sakhalin and Japan; > to Sumatra and Lesser Sundas",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LaniusAsiaMap.svg/1280px-LaniusAsiaMap.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Lanius_cristatus_-_Surin.jpg/1280px-Lanius_cristatus_-_Surin.jpg",
+        },
+        {
+          commonNameEnglish: "Northern Shrike",
+          commonNameJapanese: "オオモズ",
+          commonNameRomaji: "oomozu",
+          order: "Passeriformes",
+          family: "Laniidae",
+          species: "Lanius borealis bianchii",
+          range: "Sakhalin and s Kuril Islands (n Japan)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Lanius_borealis_map.svg/1280px-Lanius_borealis_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Northern_Shrike%2C_Arvada%2C_Jefferson%2C_Colorado.jpg/1280px-Northern_Shrike%2C_Arvada%2C_Jefferson%2C_Colorado.jpg",
+        },
       ]);
     });
 };
