@@ -2845,6 +2845,219 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/d/df/Malayan_Night-Heron_-_Taiwan_S4E8695_%2817320173361%29.jpg",
         },
+        {
+          commonNameEnglish: "Crested Ibis",
+          commonNameJapanese: "トキ",
+          commonNameRomaji: "toki",
+          order: "Pelecaniformes",
+          family: "Threskiornithidae",
+          species: "Nipponia nippon",
+          range: "China (several hundred birds in Shaanxi Province in 2006)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/c/c3/Nipponia_nippon.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Spoonbill",
+          commonNameJapanese: "ヘラサギ",
+          commonNameRomaji: "herasagi",
+          order: "Pelecaniformes",
+          family: "Threskiornithidae",
+          species: "Platalea leucorodia",
+          range:
+            "S Palearctic to India; winters to central Africa and se China",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Eurasian_Spoonbill-2.jpg/1024px-Eurasian_Spoonbill-2.jpg",
+        },
+        {
+          commonNameEnglish: "Black-faced Spoonbill",
+          commonNameJapanese: "クロツラヘラサギ",
+          commonNameRomaji: "kurotsuraherasagi",
+          order: "Pelecaniformes",
+          family: "Threskiornithidae",
+          species: "Platalea minor",
+          range: "Breeds ne China and Korea; winters to SE Asia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Black_faced_spoonbill_at_Niigata.JPG/1280px-Black_faced_spoonbill_at_Niigata.JPG",
+        },
+        {
+          commonNameEnglish: "Eurasian Hoopoe",
+          commonNameJapanese: "ヤツガシラ",
+          commonNameRomaji: "yatsugashira",
+          order: "Bucerotiformes",
+          family: "Upupidae",
+          species: "Upupa epops saturata",
+          range: "E Siberia, Manchuria and n China to extreme sw China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Upupa_distribution.png/1280px-Upupa_distribution.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/2/2f/Common_Hoopoe_%28Upupa_epops%29_Photograph_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Common Kingfisher",
+          commonNameJapanese: "カワセミ",
+          commonNameRomaji: "kawasemi",
+          order: "Coraciiformes",
+          family: "Alcedinidae",
+          species: "Alcedo atthis bengalensis",
+          range:
+            "L Baikal and n India through e and SE Asia mainland and islands",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Alcedo_atthis_-range_map-2-cp.png/1280px-Alcedo_atthis_-range_map-2-cp.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/9/92/%E2%99%82_Common_Kingfisher_%28Alcedo_atthis%29_Photograph_By_Shantanu_Kuveskar%2C_Mangaon%2C_Maharashtra%2C_India.jpg",
+        },
+        {
+          commonNameEnglish: "Ruddy Kingfisher",
+          commonNameJapanese: "アカショウビン",
+          commonNameRomaji: "akashoubin",
+          order: "Coraciiformes",
+          family: "Alcedinidae",
+          species: "Halcyon coromanda major",
+          range:
+            "Japan to Korea, ne China; winters to Taiwan, Philippines, Borneo",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ruddy_Kingfisher.jpg/1280px-Ruddy_Kingfisher.jpg",
+        },
+        {
+          commonNameEnglish: "Crested Kingfisher",
+          commonNameJapanese: "ヤマセミ",
+          commonNameRomaji: "yamasemi",
+          order: "Coraciiformes",
+          family: "Alcedinidae",
+          species: "Megaceryle lugubris",
+          range: "Honshu, Shikoku and Kyushu",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/a/a5/Greater_Pied_Kingfisher.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/6/64/Megaceryle_lugubris%2C_crop.jpg",
+        },
+        {
+          commonNameEnglish: "Dollarbird",
+          commonNameJapanese: "ブッポウソウ",
+          commonNameRomaji: "buppousou",
+          order: "Coraciiformes",
+          family: "Coraciidae",
+          species: "Eurystomus orientalis",
+          range:
+            "breeds from the s Himalayas to the Ryukyu Islands and se Asia, the Thai-Malay Peninsula, Sumatra, Java, the Philippines, and Borneo; winters to se India, the Philippines, Sulawesi, and Helmahera",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Eurystomus_orientalis_distr.png/1024px-Eurystomus_orientalis_distr.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/e/e8/Dollarbird_Samcem_Dec02.JPG",
+        },
+        {
+          commonNameEnglish: "Eurasian Wryneck",
+          commonNameJapanese: "アリスイ",
+          commonNameRomaji: "arisui",
+          order: "Piciformes",
+          family: "Picidae",
+          species: "Jynx torquilla",
+          range: "W Europe to SE Asia and Japan; winters to Africa and s Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Jynx_torquilla_distr.png/1280px-Jynx_torquilla_distr.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Northern_wryneck_by_David_Raju_%28cropped%29.jpg/1280px-Northern_wryneck_by_David_Raju_%28cropped%29.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Pygmy Woodpecker",
+          commonNameJapanese: "コゲラ",
+          commonNameRomaji: "kogera",
+          order: "Piciformes",
+          family: "Picidae",
+          species: "Yungipicus kizuki",
+          range: "Japan",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Japanese_pygmy_woodpecker_in_Sakai%2C_Osaka%2C_February_2016.jpg/1024px-Japanese_pygmy_woodpecker_in_Sakai%2C_Osaka%2C_February_2016.jpg",
+        },
+        {
+          commonNameEnglish: "Okinawa Woodpecker",
+          commonNameJapanese: "ノグチゲラ",
+          commonNameRomaji: "noguchigera",
+          order: "Piciformes",
+          family: "Picidae",
+          species: "Dendrocopos noguchii",
+          range: "Okinawa (Yambaru Moutains). On verge of extinction",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/7/7a/Dendrocopos_noguchii_distr.png",
+          profilePic:
+            "https://farm8.staticflickr.com/7324/11797751044_b7dd7deffd_n.jpg",
+        },
+        {
+          commonNameEnglish: "White-backed Woodpecker",
+          commonNameJapanese: "オオアカゲラ",
+          commonNameRomaji: "ooakagera",
+          order: "Piciformes",
+          family: "Picidae",
+          species: "Dendrocopos leucotos",
+          range: "N, central and e Europe to ne Asia, Korea and Sakhalin",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/2/2c/White-backed_Woodpecker_Dendrocopos_leucotos_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Dendrocopos_leucotos_2.jpg/1280px-Dendrocopos_leucotos_2.jpg",
+        },
+        {
+          commonNameEnglish: "Great Spotted Woodpecker",
+          commonNameJapanese: "アカゲラ",
+          commonNameRomaji: "akagera",
+          order: "Piciformes",
+          family: "Picidae",
+          species: "Dendrocopos major japonicus",
+          range: "E Manchuria, Sakhalin, Kuril Islands, Korea and n Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Dendrocopos_major_distribution_map.png/1280px-Dendrocopos_major_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Greater_Spotted_Woodpecker_%2841554059345%29.jpg/800px-Greater_Spotted_Woodpecker_%2841554059345%29.jpg",
+        },
+        {
+          commonNameEnglish: "Lesser Spotted Woodpecker",
+          commonNameJapanese: "コアカゲラ",
+          commonNameRomaji: "koakagera",
+          order: "Piciformes",
+          family: "Picidae",
+          species: "Dryobates minor amurensis",
+          range: "Lower Amur River and Sakhalin to ne Korea and n Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/b/b1/Distribution_map_of_Lesser_Spotted_Woodpecker_%28Dryobates_minor%29.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/PicoidesMinorBack.jpg/800px-PicoidesMinorBack.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Woodpecker",
+          commonNameJapanese: "アオゲラ",
+          commonNameRomaji: "aogera",
+          order: "Piciformes",
+          family: "Picidae",
+          species: "Picus awokera",
+          range: "Japan (Honshu to Tanegashima and offshore islands)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/4/40/Picus_awokera.JPG",
+        },
+        {
+          commonNameEnglish: "Grey-faced Woodpecker",
+          commonNameJapanese: "ヤマゲラ",
+          commonNameRomaji: "yamagera",
+          order: "Piciformes",
+          family: "Picidae",
+          species: "Picus canus",
+          range: "E Siberia to ne China, Korea, Sakhalin and Hokkaido",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Picus_canus_distr003a.png/1280px-Picus_canus_distr003a.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/9/94/Grey-headed_Woodpecker_-_Italy_S4E5692.jpg",
+        },
+        {
+          commonNameEnglish: "Black Woodpecker",
+          commonNameJapanese: "クマゲラ",
+          commonNameRomaji: "kumagera",
+          order: "Piciformes",
+          family: "Picidae",
+          species: "Dryocopus martius",
+          range: "Coniferous and beech forests of Eurasia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Dryocopus_martius_distr.PNG/1280px-Dryocopus_martius_distr.PNG",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/BlackWoods.jpg/1280px-BlackWoods.jpg",
+        },
       ]);
     });
 };
