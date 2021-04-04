@@ -3217,6 +3217,89 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Northern_Shrike%2C_Arvada%2C_Jefferson%2C_Colorado.jpg/1280px-Northern_Shrike%2C_Arvada%2C_Jefferson%2C_Colorado.jpg",
         },
+        {
+          commonNameEnglish: "Coal Tit",
+          commonNameJapanese: "ヒガラ",
+          commonNameRomaji: "higara",
+          order: "Passeriformes",
+          family: "Paridae",
+          species: "Periparus ater insularis",
+          range: "S Kuril Islands, Japan and Cheju-Do Islands (Korea)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/PeriparusAterIUCN2018_2.png/1280px-PeriparusAterIUCN2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Coal_tit_UK09.JPG/1024px-Coal_tit_UK09.JPG",
+        },
+        {
+          commonNameEnglish: "Iriomote Tit",
+          commonNameJapanese: "オリイヤマガラ",
+          commonNameRomaji: "oriiyamagara",
+          order: "Passeriformes",
+          family: "Paridae",
+          species: "Sittiparus olivaceus",
+          range: "Iriomote (s Ryukyu Islands)",
+        },
+        {
+          commonNameEnglish: "Varied Tit",
+          commonNameJapanese: "ヤマガラ",
+          commonNameRomaji: "yamagara",
+          order: "Passeriformes",
+          family: "Paridae",
+          species: "Sittiparus varius",
+          range: "Kuril Islands, ne China, Korea and main Japanese islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Varied_tit_at_Tenn%C5%8Dji_Park_in_Osaka%2C_January_2016.jpg/1280px-Varied_tit_at_Tenn%C5%8Dji_Park_in_Osaka%2C_January_2016.jpg",
+        },
+        {
+          commonNameEnglish: "Owston's Tit",
+          commonNameJapanese: "オーストニャマガラ",
+          commonNameRomaji: "oosutonyamagara",
+          order: "Passeriformes",
+          family: "Paridae",
+          species: "Sittiparus owstoni",
+          range: "S Izu Islands (Miyake-jima, Mikura-jima and Hachijo-jima)",
+          profilePic:
+            "https://farm6.staticflickr.com/5188/5849451636_1e47a52cf7_n.jpg",
+        },
+        {
+          commonNameEnglish: "Marsh Tit",
+          commonNameJapanese: "ハシブトガラ",
+          commonNameRomaji: "hashibutogara",
+          order: "Passeriformes",
+          family: "Paridae",
+          species: "Poecile palustris hensoni",
+          range: "N Japan (s Kuril Islands and Hokkaido)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/d/de/Poecile_palustris_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/3/3a/Parus_palustris02.jpg",
+        },
+        {
+          commonNameEnglish: "Willow Tit",
+          commonNameJapanese: "コガラ",
+          commonNameRomaji: "kogara",
+          order: "Passeriformes",
+          family: "Paridae",
+          species: "Poecile montanus restrictus",
+          range: "Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/e/ea/Poecile_montanus_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Poecile_montanus_kleinschmidti.jpg/1280px-Poecile_montanus_kleinschmidti.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Tit",
+          commonNameJapanese: "シジュウカラ",
+          commonNameRomaji: "shijuukara",
+          order: "Passeriformes",
+          family: "Paridae",
+          species: "Parus minor",
+          range: "SE Russia to Japan, Korea, sw China and e Tibet",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ParusMajorMap.svg/1280px-ParusMajorMap.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Parus_minor_%28side%29.JPG/1280px-Parus_minor_%28side%29.JPG",
+        },
       ]);
     });
 };
