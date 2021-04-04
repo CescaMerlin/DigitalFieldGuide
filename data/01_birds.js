@@ -2530,6 +2530,321 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/P%C3%A9trel_de_Barau_.jpg/800px-P%C3%A9trel_de_Barau_.jpg",
         },
+        {
+          commonNameEnglish: "Oriental Stork",
+          commonNameJapanese: "コウノトリ",
+          commonNameRomaji: "kounotori",
+          order: "Ciconiiformes",
+          family: "Ciconiidae",
+          species: "Ciconia boyciana",
+          range: "Siberia, Manchuria and Korea; winters to s China and n India",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ciconia_boyciana_distribution_map.svg/1024px-Ciconia_boyciana_distribution_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/f/f3/Kounotori_06f4471sv.jpg",
+        },
+        {
+          commonNameEnglish: "Masked Booby",
+          commonNameJapanese: "アオツラカツオドリ",
+          commonNameRomaji: "aotsurakatsuodori",
+          order: "Suliformes",
+          family: "Sulidae",
+          species: "Sula dactylatra melanops",
+          range: "Breeds islands in w Indian Ocean",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/e/ef/Suladactylatrargemap.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Starr_080606-6808_Coronopus_didymus.jpg/800px-Starr_080606-6808_Coronopus_didymus.jpg",
+        },
+        {
+          commonNameEnglish: "Brown Booby",
+          commonNameJapanese: "カツオドリ",
+          commonNameRomaji: "katsuodori",
+          order: "Suliformes",
+          family: "Sulidae",
+          species: "Sula leucogaster plotus",
+          range:
+            "breeds on islands in the Red Sea, tropical Indian Ocean, and tropical western and central Pacific Ocean",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sula_leucogaster%2C_verspreidingskaart_met_subspp%2C_a.png/1280px-Sula_leucogaster%2C_verspreidingskaart_met_subspp%2C_a.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/6A5A3225.jpg/1280px-6A5A3225.jpg",
+        },
+        {
+          commonNameEnglish: "Red-footed Booby",
+          commonNameJapanese: "アカアシカツオドリ",
+          commonNameRomaji: "akaashikatsuodori",
+          order: "Suliformes",
+          family: "Sulidae",
+          species: "Sula sula rubripes",
+          range: "Breeds islands in tropical Pacific and Indian oceans",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Sula_sula_map.svg/1280px-Sula_sula_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sula_sula_by_Gregg_Yan_01.jpg/800px-Sula_sula_by_Gregg_Yan_01.jpg",
+        },
+        {
+          commonNameEnglish: "Red-faced Cormorant",
+          commonNameJapanese: "チシマウガラス",
+          commonNameRomaji: "chishimaugarasu",
+          order: "Suliformes",
+          family: "Phalacrocoracidae",
+          species: "Phalacrocorax urile",
+          range: "Islands off n Japan to coastal s Alaska",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/c/ca/Phalacrocorax_urile_range_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Red-faced_Cormorant_on_St._Paul_Island_by_Lisa_Hupp_USFWS.jpg/1280px-Red-faced_Cormorant_on_St._Paul_Island_by_Lisa_Hupp_USFWS.jpg",
+        },
+        {
+          commonNameEnglish: "Pelagic Cormorant",
+          commonNameJapanese: "ヒメウ",
+          commonNameRomaji: "himeu",
+          order: "Suliformes",
+          family: "Phalacrocoracidae",
+          species: "Phalacrocorax pelagicus",
+          range: "Coastal ne Asia, Bering Sea and Arctic Ocean islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pelagic_Cormorant_flying.jpg/1280px-Pelagic_Cormorant_flying.jpg",
+        },
+        {
+          commonNameEnglish: "Great Cormorant",
+          commonNameJapanese: "カワウ",
+          commonNameRomaji: "kawau",
+          order: "Suliformes",
+          family: "Phalacrocoracidae",
+          species: "Phalacrocorax carbo hanedae",
+          range: "Honshu I. (Japan)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/PhalacrocoraxCarbo.png/1280px-PhalacrocoraxCarbo.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Phalacrocorax_carbo_Vic.jpg/800px-Phalacrocorax_carbo_Vic.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Cormorant",
+          commonNameJapanese: "ウミウ",
+          commonNameRomaji: "umiu",
+          order: "Suliformes",
+          family: "Phalacrocoracidae",
+          species: "Phalacrocorax capillatus",
+          range: "Rocky seacoasts and islands of ne Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Phalacrocorax_capillatus_distribution.png/1024px-Phalacrocorax_capillatus_distribution.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Phalacrocorax_capillatus_20161002_Japanese_Cormorant_04.jpg/1024px-Phalacrocorax_capillatus_20161002_Japanese_Cormorant_04.jpg",
+        },
+        {
+          commonNameEnglish: "Great Bittern",
+          commonNameJapanese: "サンカノゴイ",
+          commonNameRomaji: "sankanogoi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Botarus stellaris",
+          range: "Palearctic and n Afrotropical region; winters to Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Botaurus_stellaris_map.svg/1280px-Botaurus_stellaris_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bittern_-_Botaurus_stellaris.jpg/800px-Bittern_-_Botaurus_stellaris.jpg",
+        },
+        {
+          commonNameEnglish: "Yellow Bittern",
+          commonNameJapanese: "ヨシゴイ",
+          commonNameRomaji: "yoshigoi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Ixobrychus sinensis",
+          range: "S Asia, Malay Archipelago, New Guinea region and s Oceania",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ixobrychus_sinensis_-_Chinese_Garden.jpg/800px-Ixobrychus_sinensis_-_Chinese_Garden.jpg",
+        },
+        {
+          commonNameEnglish: "Schrenck's Bittern",
+          commonNameJapanese: "オオヨシゴイ",
+          commonNameRomaji: "ooyoshigoi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Ixobrychus eurhythmus",
+          range: "E Asia; winters to SE Asia, Philippines and Greater Sundas",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/a/a2/Von_Schrenck%27s_Bittern_%28Ixobrychus_eurhythmus%29%2C_Central_Catchment_Nature_Reserve%2C_Singapore_-_20140327.jpg",
+        },
+        {
+          commonNameEnglish: "Cinnamon Bittern",
+          commonNameJapanese: "リュウキュウヨシゴイ",
+          commonNameRomaji: "ryuukyuuyoshigoi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Ixobrychus cinnamomeus",
+          range: "India to SE Asia, Philippines and Indonesia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ixobrychus_cinnamomeus_map.svg/1024px-Ixobrychus_cinnamomeus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/9/95/Cinnamon_bittern_or_chestnut_bittern_%28Ixobrychus_cinnamomeus%29_Photograph_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Grey Heron",
+          commonNameJapanese: "アオサギ",
+          commonNameRomaji: "aosagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Ardia cinerea jouyi",
+          range: "Japan, China, Indochina, Malaya, Sumatra and Java",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Graureiher_Grey_Heron.jpg/800px-Graureiher_Grey_Heron.jpg",
+        },
+        {
+          commonNameEnglish: "Purple Heron",
+          commonNameJapanese: "ムラサキサギ",
+          commonNameRomaji: "murasakisagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Ardia purpurea manilensis",
+          range: "Southern and e Asia, Indonesia and Philippine Islands",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ArdeaPurpureaIUCNver2019_1.png/1280px-ArdeaPurpureaIUCNver2019_1.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/4/43/Purple_heron_%28Ardea_purpurea%29_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Eastern Great Egret",
+          commonNameJapanese: "ダイサギ",
+          commonNameRomaji: "daisagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Ardea alba",
+          range: "Southern and e Asia to Indonesia, Australia and New Zealand",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ardea_modesta_map.svg/1280px-Ardea_modesta_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ardea_modesta.jpg/800px-Ardea_modesta.jpg",
+        },
+        {
+          commonNameEnglish: "Intermediate Egret",
+          commonNameJapanese: "チュウサギ",
+          commonNameRomaji: "chuusagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Ardea intermdeia",
+          range: "Japan to s India and Greater Sundas",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ardea_intermedia_map.svg/1280px-Ardea_intermedia_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/4/45/Egretta_intermedia00.jpg",
+        },
+        {
+          commonNameEnglish: "Chinese Egret",
+          commonNameJapanese: "カラシラサギ",
+          commonNameRomaji: "karashirasagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Egretta eulophotes",
+          range: "E Asia; winters to SE Asia, Philippines and Indonesia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egretta_eulophotes_map.svg/1024px-Egretta_eulophotes_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Chinese_Egret.jpg/1024px-Chinese_Egret.jpg",
+        },
+        {
+          commonNameEnglish: "Little Egret",
+          commonNameJapanese: "コサギ",
+          commonNameRomaji: "kosagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Egretta garzetta",
+          range: "Widespread Eurasia, east and South Africa",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/EgrettaGarzettaIUVNver2018_2.png/1280px-EgrettaGarzettaIUVNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/f/f1/Little_egret_%28Egretta_garzetta%29_Photograph_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Pacific Reef Heron",
+          commonNameJapanese: "クロサギ",
+          commonNameRomaji: "kurosagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Egretta sacra",
+          range: "Coastal SE Asia, Malay Archipelago, Oceania and Australasia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Egretta_sacra.jpg/1280px-Egretta_sacra.jpg",
+        },
+        {
+          commonNameEnglish: "Eastern Cattle Egret",
+          commonNameJapanese: "アマサギ",
+          commonNameRomaji: "amasagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Bubulcus coromandus",
+          range:
+            "S and E Asia to Indian subcontinent, Australia and New Zealand",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/a/a3/Red-flush_Cattle_Egret.jpg",
+        },
+        {
+          commonNameEnglish: "Chinese Pond Heron",
+          commonNameJapanese: "アカガシラサギ",
+          commonNameRomaji: "akagashirasagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Ardeola bacchus",
+          range: "Lowlands of s Asia; winters to Greater Sundas",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/ArdeolaMap.svg/1024px-ArdeolaMap.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/6/63/Chinese_Pond_Heron_in_Summer.jpg",
+        },
+        {
+          commonNameEnglish: "Striated Heron",
+          commonNameJapanese: "ササゴイ",
+          commonNameRomaji: "sasagoi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Butorides striata amurensis",
+          range: "Manchuria to ne China, Japan, Ryukyu and Bonin islands",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Butorides_striata_map.svg/1280px-Butorides_striata_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Striated_Heron_-_Ermington.jpg/1280px-Striated_Heron_-_Ermington.jpg",
+        },
+        {
+          commonNameEnglish: "Black-crowned Night-Heron",
+          commonNameJapanese: "ゴイサギ",
+          commonNameRomaji: "goisagi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Nycticorax nycticorax",
+          range: "Eurasia south to Indonesia, Africa and Madagascar",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Nycticorax_nycticorax_map.svg/1280px-Nycticorax_nycticorax_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/BCNH_CMCNJ_for_Wiki.png/1280px-BCNH_CMCNJ_for_Wiki.png",
+        },
+        {
+          commonNameEnglish: "Japanese Night-Heron",
+          commonNameJapanese: "ミゾゴイ",
+          commonNameRomaji: "mizogoi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Gorsachius goisagi",
+          range: "S Japan; winters se China to Ryukyu Islands and Indonesia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gorsachius_goisagi_map.svg/1024px-Gorsachius_goisagi_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Japanese_night_heron_%28Gorsachius_goisagi%29.jpg/800px-Japanese_night_heron_%28Gorsachius_goisagi%29.jpg",
+        },
+        {
+          commonNameEnglish: "Malayan Night-Heron",
+          commonNameJapanese: "ズグロミゾゴイ",
+          commonNameRomaji: "zuguromizogoi",
+          order: "Pelecaniformes",
+          family: "Ardeidae",
+          species: "Gorsachius melanolophus",
+          range: "Humid forests of s Asia and Malay Archipelago",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gorsachius_melanolophus_map.svg/1024px-Gorsachius_melanolophus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/d/df/Malayan_Night-Heron_-_Taiwan_S4E8695_%2817320173361%29.jpg",
+        },
       ]);
     });
 };
