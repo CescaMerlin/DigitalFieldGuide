@@ -2214,6 +2214,322 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Crested_Tern_Tasmania.jpg/1280px-Crested_Tern_Tasmania.jpg",
         },
+        {
+          commonNameEnglish: "Red-tailed Tropicbird",
+          commonNameJapanese: "アカオネッタイチョウ",
+          commonNameRomaji: "akaonettaichou",
+          order: "Phaethontiformes",
+          family: "Phaethontidae",
+          species: "Phaethon rubricauda melanorhynchos",
+          range: "Breeds and disperses widely in tropical Pacific Ocean",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Redtailedtropicbirdrge.png/1280px-Redtailedtropicbirdrge.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/4/47/Red-tailed_Tropicbird_RWD2.jpg",
+        },
+        {
+          commonNameEnglish: "Red-throated Loon",
+          commonNameJapanese: "アビ",
+          commonNameRomaji: "abi",
+          order: "Gaviiformes",
+          family: "Gaviidae",
+          species: "Gavia stellata",
+          range:
+            "breeds across the n Holarctic region; winters coastally in the n Pacific Ocean from the Kamchatka Peninsula to the Yellow Sea, and from s Alaska to nw Mexico",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/7/71/Gavia_stellata_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Gavia_Stellata_%C3%96lfus%C3%A1_20090606.jpg/1280px-Gavia_Stellata_%C3%96lfus%C3%A1_20090606.jpg",
+        },
+        {
+          commonNameEnglish: "Arctic Loon",
+          commonNameJapanese: "オオハム",
+          commonNameRomaji: "oohamu",
+          order: "Gaviiformes",
+          family: "Gaviidae",
+          species: "Gavia arctica viridigularis",
+          range:
+            "breeds ne Siberia and extreme w mainland Alaska; winters from the Kuril Islands to the Yellow Sea",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/GaviaArcticaIUCNver2019-2.png/1280px-GaviaArcticaIUCNver2019-2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/3/3e/Black-throated_Diver%2C_Oulu%2C_Finland_02_%2815195370798%29.jpg",
+        },
+        {
+          commonNameEnglish: "Pacific Loon",
+          commonNameJapanese: "シロエリオオハム",
+          commonNameRomaji: "shiroerioohamu",
+          order: "Gaviiformes",
+          family: "Gaviidae",
+          species: "Gavia pacifica",
+          range: "Coastal e Siberia and n N America; winters to Japan, s Baja",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Gavia_pacifica_map.svg/1280px-Gavia_pacifica_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/e/ef/PacificLoon24.jpg",
+        },
+        {
+          commonNameEnglish: "Yellow-billed Loon",
+          commonNameJapanese: "ハシジロアビ",
+          commonNameRomaji: "hashijiroabi",
+          order: "Gaviiformes",
+          family: "Gaviidae",
+          species: "Gavia adamsii",
+          range: "N Eurasia and n North America; winters to n Baja California",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gavia_adamsii_map.svg/1280px-Gavia_adamsii_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Yellow-billed_Loon_Chipp_South_8-12-13_Ryan_Askren.jpg/1280px-Yellow-billed_Loon_Chipp_South_8-12-13_Ryan_Askren.jpg",
+        },
+        {
+          commonNameEnglish: "Laysan Albatross",
+          commonNameJapanese: "コアホウドリ",
+          commonNameRomaji: "koahoudori",
+          order: "Procellariiformes",
+          family: "Diomedeidae",
+          species: "Phoebastria immutabilis",
+          range:
+            "Breeds w Hawaiian and Revillagigedo islands; ranges n Pacific",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Phoebastria_immutabilis_map.svg/1280px-Phoebastria_immutabilis_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d0/Laysan_Albatross_RWD2.jpg",
+        },
+        {
+          commonNameEnglish: "Black-footed Albatross",
+          commonNameJapanese: "クロアヒアホウドリ",
+          commonNameRomaji: "kuroashiahoudori",
+          order: "Procellariiformes",
+          family: "Diomedeidae",
+          species: "Phoebastria nigripes",
+          range: "W Hawaiian, Izu, Bonin and s Ryukyu islands",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Phoebastria_nigripes_map.svg/1280px-Phoebastria_nigripes_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/1/18/Black_footed_albatross1.jpg",
+        },
+        {
+          commonNameEnglish: "Short-tailed Albatross",
+          commonNameJapanese: "アホウドリ",
+          commonNameRomaji: "ahoudori",
+          order: "Procellariiformes",
+          family: "Diomedeidae",
+          species: "Phoebastria albatrus",
+          range:
+            "Breeds Torishima (Izu Islands); ranges at sea through n Pacific",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Phoebastria_albatrus_map.svg/1280px-Phoebastria_albatrus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/7/73/Short_tailed_Albatross1.jpg",
+        },
+        {
+          commonNameEnglish: "Fork-tailed Storm-Petrel",
+          commonNameJapanese: "ハイイロウミツバメ",
+          commonNameRomaji: "haiiroumitsubame",
+          order: "Procellariiformes",
+          family: "Hydrobatidae",
+          species: "Oceanodroma furcata",
+          range: "N Kuril, Komandorskiye and Aleutian islands",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Oceanodroma_furcata_map.svg/1280px-Oceanodroma_furcata_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Oceanodroma_furcata_1.jpg/1280px-Oceanodroma_furcata_1.jpg",
+        },
+        {
+          commonNameEnglish: "Leach's Storm-Petrel",
+          commonNameJapanese: "コシジロウミツバメ",
+          commonNameRomaji: "koshijiroumitsubame",
+          order: "Procellariiformes",
+          family: "Hydrobatidae",
+          species: "Oceanodroma leucorhoa",
+          range: "N Atlantic; Japan to Aleutians and islands off n Mexico",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Oceanodroma_leucorhoa_map.svg/1280px-Oceanodroma_leucorhoa_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Lesp1.jpg/1280px-Lesp1.jpg",
+        },
+        {
+          commonNameEnglish: "Swinhoe's Storm-Petrel",
+          commonNameJapanese: "ヒメクロウミツバメ",
+          commonNameRomaji: "himekuroumitsubame",
+          order: "Procellariiformes",
+          family: "Hydrobatidae",
+          species: "Oceanodroma monorhis",
+          range: "Breeds islands off Japan; disperses to n Indian Ocean",
+          profilePic:
+            "https://farm7.staticflickr.com/6066/6059517855_354e63a231_n.jpg",
+        },
+        {
+          commonNameEnglish: "Band-rumped Storm-Petrel",
+          commonNameJapanese: "クロコシジロウミツバメ",
+          commonNameRomaji: "kurokoshijiroumitsubame",
+          order: "Procellariiformes",
+          family: "Hydrobatidae",
+          species: "Oceanodroma castro",
+          range: "Breeds and ranges tropical Atlantic and Pacific Oceans",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Oceanodroma_castro_dist.png/1280px-Oceanodroma_castro_dist.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Band_rumped_storm_petrel_Andre_Raine_KESRP_%2821789178016%29.jpg/1280px-Band_rumped_storm_petrel_Andre_Raine_KESRP_%2821789178016%29.jpg",
+        },
+        {
+          commonNameEnglish: "Matsudaira's Storm-Petrel",
+          commonNameJapanese: "クロウミツバメ",
+          commonNameRomaji: "kuroumitsubame",
+          order: "Procellariiformes",
+          family: "Hydrobatidae",
+          species: "Oceanodroma matsudairae",
+          range: "Breeds Volcano Islands (Japan); disperses to Indian Ocean",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/f/f0/012016-IMG_5713_Matsudaira%27s_Storm-Petrel_%28Oceanodroma_matsudairae%29_%288005427860%29.jpg",
+        },
+        {
+          commonNameEnglish: "Tristram's Storm-Petrel",
+          commonNameJapanese: "オーストンウミツバメ",
+          commonNameRomaji: "oosutonumitsubame",
+          order: "Procellariiformes",
+          family: "Hydrobatidae",
+          species: "Oceanodroma tristrami",
+          range: "Breeds and ranges Hawaii, Izu and Volcano islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Tristram%27s_storm_petrel_on_Nihoa_Island_%2826642384862%29.jpg/1280px-Tristram%27s_storm_petrel_on_Nihoa_Island_%2826642384862%29.jpg",
+        },
+        {
+          commonNameEnglish: "Northern Fulmar",
+          commonNameJapanese: "フルマカモメ",
+          commonNameRomaji: "furumakamome",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Fulmarus glacialis rodgersii",
+          range:
+            "Breeds coasts of e Siberia and Alaskan peninsula; ranges widely",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/FULMAR.gif/1280px-FULMAR.gif",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Northern-Fulmar2_cropped.jpg/1280px-Northern-Fulmar2_cropped.jpg",
+        },
+        {
+          commonNameEnglish: "Bonin Petrel",
+          commonNameJapanese: "シロハラミズナギドリ",
+          commonNameRomaji: "shiroharamizunagidori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Pterodroma hypoleuca",
+          range: "Volcano, Bonin and w Hawaiian islands; ranges to Polynesia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pterodroma_hypoleuca_-Midway_Atoll%2C_USA-8.jpg",
+        },
+        {
+          commonNameEnglish: "Bulwer's Petrel",
+          commonNameJapanese: "アナドリ",
+          commonNameRomaji: "anadori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Bulweria bulwerii",
+          range: "Azores to Cape Verde, Johnston and nw Hawaiian islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/8/86/Bulweria_bulwerii_Hawaii_2.jpg",
+        },
+        {
+          commonNameEnglish: "Streaked Shearwater",
+          commonNameJapanese: "オオミズナギドリ",
+          commonNameRomaji: "oomizunagidori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Calonectris leucomelas",
+          range:
+            "Breeds coastal islands off Japan and China; ranges to s Pacific",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Streaked_shearwater_sitting.jpg/1280px-Streaked_shearwater_sitting.jpg",
+        },
+        {
+          commonNameEnglish: "Flesh-footed Shearwater",
+          commonNameJapanese: "アカアシミズナギドリ",
+          commonNameRomaji: "akaashimizunagidori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Ardenna carneipes",
+          range:
+            "S Indian and sw Pacific Oceans; winters to Arabian Sea, nw Pacific",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ardenna_carneipes_map.svg/1280px-Ardenna_carneipes_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Puffinus_carneipes_-New_Zealand_-flying-8b.jpg/1280px-Puffinus_carneipes_-New_Zealand_-flying-8b.jpg",
+        },
+        {
+          commonNameEnglish: "Wedge-tailed Shearwater",
+          commonNameJapanese: "オナガミズナギドリ",
+          commonNameRomaji: "onagamizunagidori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Ardenna pacifica",
+          range: "Widespread tropical Pacific and Indian oceans",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ardenna_pacifica_map.svg/1280px-Ardenna_pacifica_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/3/3f/Wedge_tailed_shearwater2.jpg",
+        },
+        {
+          commonNameEnglish: "Sooty Shearwater",
+          commonNameJapanese: "ハイイロミズナギドリ",
+          commonNameRomaji: "haiiromizunagidori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Ardenna grisea",
+          range:
+            "S S. Am., New Zealand, se Australia; winters to n Pacific, n Atlantic",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sooty_Shearwater-map-localisation-fr.svg/1280px-Sooty_Shearwater-map-localisation-fr.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Puffinus_griseus_in_flight_-_SE_Tasmania.jpg/1280px-Puffinus_griseus_in_flight_-_SE_Tasmania.jpg",
+        },
+        {
+          commonNameEnglish: "Short-tailed Shearwater",
+          commonNameJapanese: "ハシボソミズナギドリ",
+          commonNameRomaji: "hashibosomizunagidori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Ardenna tenuirostris",
+          range: "S Australia and Tasmania; winters to n Pacific",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ardenna_tenuirostris_map.svg/1280px-Ardenna_tenuirostris_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Puffinus_tenuirostris_-_SE_Tasmania.jpg/1280px-Puffinus_tenuirostris_-_SE_Tasmania.jpg",
+        },
+        {
+          commonNameEnglish: "Bannerman's Shearwater",
+          commonNameJapanese: "オガサワラミズナギドリ",
+          commonNameRomaji: "ogasawaramizunagidori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Puffinus bannermani",
+          range: "Breeds Bonin and Volcano islands (off Japan)",
+          profilePic:
+            "https://farm5.staticflickr.com/4154/4970722880_3d0be3e328_n.jpg",
+        },
+        {
+          commonNameEnglish: "Bryan's Shearwater",
+          commonNameJapanese: "オガサワラヒメミズナギドリ",
+          commonNameRomaji: "ogasawarahimemizunagidori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Puffinus bryani",
+          range:
+            "Range poorly known; discovered on Midway Island (Hawaii), but probably breeds Bonin Islands (Japan)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/5/5b/Puffinus_bryani_-_wyst%C4%99powanie.png",
+        },
+        {
+          commonNameEnglish: "Tropical Shearwater",
+          commonNameJapanese: "トロピカルミズナギドリ",
+          commonNameRomaji: "toropikarumizunagidori",
+          order: "Procellariiformes",
+          family: "Procellariidae",
+          species: "Puffinus bailloni",
+          range: "Mascarene Islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/P%C3%A9trel_de_Barau_.jpg/800px-P%C3%A9trel_de_Barau_.jpg",
+        },
       ]);
     });
 };
