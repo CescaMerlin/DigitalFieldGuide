@@ -1766,6 +1766,454 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Common_Redshank_Tringa_totanus.jpg/1280px-Common_Redshank_Tringa_totanus.jpg",
         },
+        {
+          commonNameEnglish: "Barred Buttonquail",
+          commonNameJapanese: "ミフウズラ",
+          commonNameRomaji: "mifuuzura",
+          order: "Charadriiformes",
+          family: "Turnicidae",
+          species: "Turnix suscitator okinavensis",
+          range: "S Kyushu I. and Makenoshima I. south to Ryukyu Islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/6/6e/Barred_Button_quail_or_Common_Bustard-Quail_%28Turnix_suscitatior%29_Photograph_By_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Oriental Pratincole",
+          commonNameJapanese: "ツバメチドリ",
+          commonNameRomaji: "tsubamechidori",
+          order: "Charadriiformes",
+          family: "Glareolidae",
+          species: "Glareola maldivarum",
+          range:
+            "E Asia; winters India to SE Asia, Philippines and Australasia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glareola_maldivarum_-_Beung_Borapet.jpg/1280px-Glareola_maldivarum_-_Beung_Borapet.jpg",
+        },
+        {
+          commonNameEnglish: "South Polar Skua",
+          commonNameJapanese: "オンキョクオオトウゾクカモメ",
+          commonNameRomaji: "nankyokuootouzokukamome",
+          order: "Charadriiformes",
+          family: "Stercorariidae",
+          species: "Stercorarius maccormicki",
+          range:
+            "Antarctica; ranges to n Atlantic, n Pacific and Indian oceans",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Stercorarius_maccormicki_map.svg/1280px-Stercorarius_maccormicki_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/South_polar_skua.jpg/1280px-South_polar_skua.jpg",
+        },
+        {
+          commonNameEnglish: "Pomarine Jaeger",
+          commonNameJapanese: "トウゾクカモメ",
+          commonNameRomaji: "touzokukamome",
+          order: "Charadriiformes",
+          family: "Stercorariidae",
+          species: "Stercorarius pomarinus",
+          range: "Circumpolar Arctic tundra; winters at sea in southern oceans",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/StercorariusPomarinusIUCNver2018_2.png/1280px-StercorariusPomarinusIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/0d/Stercorarius_pomarinusPCCA20070623-3985B.jpg",
+        },
+        {
+          commonNameEnglish: "Parasitic Jaeger",
+          commonNameJapanese: "クロトウゾクカモメ",
+          commonNameRomaji: "kurotouzokukamome",
+          order: "Charadriiformes",
+          family: "Stercorariidae",
+          species: "Stercorarius parasiticus",
+          range: "Circumpolar Arctic tundra; winters at sea in southern oceans",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Stercorarius_parasiticus_map.svg/1280px-Stercorarius_parasiticus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Arctic_Skua_1.jpg/1280px-Arctic_Skua_1.jpg",
+        },
+        {
+          commonNameEnglish: "Long-tailed Jaeger",
+          commonNameJapanese: "シロハラトウゾクカモメ",
+          commonNameRomaji: "shiroharatouzokukamome",
+          order: "Charadriiformes",
+          family: "Stercorariidae",
+          species: "Stercorarius longicaudus",
+          range:
+            "N Scandinavia and Russia; winters to s S America and S Africa",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Stercorarius_longicaudus_map.svg/1280px-Stercorarius_longicaudus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Long-tailed_Skua_%28js%29_26.jpg/1280px-Long-tailed_Skua_%28js%29_26.jpg",
+        },
+        {
+          commonNameEnglish: "Common Murre",
+          commonNameJapanese: "ウミガラス",
+          commonNameRomaji: "umigarasu",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Uria aalge inornata",
+          range: "Korea, Japan and Kamchatka to Bering Sea and Br. Columbia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Uria_aalge_map.svg/1280px-Uria_aalge_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Common_Murre_Uria_aalge.jpg/800px-Common_Murre_Uria_aalge.jpg",
+        },
+        {
+          commonNameEnglish: "Thick-billed Murre",
+          commonNameJapanese: "ハシブトウミガラス",
+          commonNameRomaji: "hashibutoumigarasu",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Uria lomvia arra",
+          range: "N Japan and Aleutian Islands to se Alaska",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Uria_lomvia_map.svg/1280px-Uria_lomvia_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d1/Uria_lomvia1.jpg",
+        },
+        {
+          commonNameEnglish: "Pigeon Guillemot",
+          commonNameJapanese: "ウミバト",
+          commonNameRomaji: "umibato",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Cepphus columba",
+          range: "NE Siberia to Bering Sea and w Alaska",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/6/6b/PIGU_distribution.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Pigeon_guillemot.jpg/1280px-Pigeon_guillemot.jpg",
+        },
+        {
+          commonNameEnglish: "Spectacled Guillemot",
+          commonNameJapanese: "ケイマフリ",
+          commonNameRomaji: "keimafuri",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Cepphus carbo",
+          range: "Kamchatka and Sea of Okhotsk to Korea, Kuril Is. and n Japan",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/SpectacledGuillemot.jpg/1280px-SpectacledGuillemot.jpg",
+        },
+        {
+          commonNameEnglish: "Long-billed Murrelet",
+          commonNameJapanese: "ハシナガウミスズメ",
+          commonNameRomaji: "hashinagaumisuzume",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Brachyramphus perdix",
+          range: "Kamchatka Peninsula and Sea of Okhotsk to Hokkaido",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Brachyramphus_perdix_map.svg/1280px-Brachyramphus_perdix_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d5/Brachyramphus_perdix0.jpg",
+        },
+        {
+          commonNameEnglish: "Ancient Murrelet",
+          commonNameJapanese: "ウミスズメ",
+          commonNameRomaji: "umisuzume",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Synthliboramphus antiquus microrhynchos",
+          range: "Komandorskiye Islands; winters to Ryukyu Islands",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Synthliboramphus_antiquus_map.svg/1280px-Synthliboramphus_antiquus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ancient_Murrelet_-_Semiahmoo_Spit.jpg/1280px-Ancient_Murrelet_-_Semiahmoo_Spit.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Murrelet",
+          commonNameJapanese: "カンムリウミスズメ",
+          commonNameRomaji: "kanmuriumisuzume",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Synthliboramphus wumizusume",
+          range: "Coasts and islands off e and s Japan and South Korea",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Synthliboramphus_wumizusume_-Japan-8.jpg/1280px-Synthliboramphus_wumizusume_-Japan-8.jpg",
+        },
+        {
+          commonNameEnglish: "Least Auklet",
+          commonNameJapanese: "コウミスズメ",
+          commonNameRomaji: "koumisuzume",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Aethia pusilla",
+          range: "Breeds e Siberia and w Alaska; winters south to n Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Aethia_pusilla_map.svg/1280px-Aethia_pusilla_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/00/Leastauklet6.jpg",
+        },
+        {
+          commonNameEnglish: "Crested Auklet",
+          commonNameJapanese: "エトロフウミスズメ",
+          commonNameRomaji: "etorofuumisuzume",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Aethia cristatella",
+          range: "Breeds w Alaska and e Siberia; winters south to Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Aethia_cristatella_map.svg/1280px-Aethia_cristatella_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aethia_cristatella.jpg/800px-Aethia_cristatella.jpg",
+        },
+        {
+          commonNameEnglish: "Rhinoceros Auklet",
+          commonNameJapanese: "ウトウ",
+          commonNameRomaji: "utou",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Cerorhinca monocerata",
+          range: "E Asia and w North America; winters to Baja California",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cerorhinca_monocerata_map.svg/1280px-Cerorhinca_monocerata_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Wiki-utou2.jpg/1280px-Wiki-utou2.jpg",
+        },
+        {
+          commonNameEnglish: "Tufted Puffin",
+          commonNameJapanese: "エトピリカ",
+          commonNameRomaji: "etopirika",
+          order: "Charadriiformes",
+          family: "Alcidae",
+          species: "Fratercula cirrhata",
+          range: "Coasts and islands of ne Asia to Aleutians and s California",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Fratercula_cirrhata_distribution_map.svg/1280px-Fratercula_cirrhata_distribution_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tufted_Puffin_Alaska_%28cropped%29.jpg",
+        },
+        {
+          commonNameEnglish: "Black-legged Kittiwake",
+          commonNameJapanese: "ミツユビカモメ",
+          commonNameRomaji: "mitsuyubikamome",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Rissa tridactylus pollicaris",
+          range: "Circumpolar n Pacific; winters to e China Sea and nw Mexico",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Rissa_tridactyla_area_all.PNG/1280px-Rissa_tridactyla_area_all.PNG",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Rissa_tridactyla_%28Vard%C3%B8%2C_2012%29.jpg/1280px-Rissa_tridactyla_%28Vard%C3%B8%2C_2012%29.jpg",
+        },
+        {
+          commonNameEnglish: "Saunders's Gull",
+          commonNameJapanese: "ズグロカモメ",
+          commonNameRomaji: "zugurokamome",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Chroicocephalus saundersi",
+          range:
+            "Coastal e China; winters South Korea and s Japan to n Vietnam",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/0c/Saundersilarus_saundersi_2739737.jpg",
+        },
+        {
+          commonNameEnglish: "Black-headed Gull",
+          commonNameJapanese: "ユリカモメ",
+          commonNameRomaji: "yurikamome",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Chroicocephalus ridbundus",
+          range: "N Palearctic; winters to Africa, s Asia and e North America",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/6/6f/Black-Headed_Gull.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Chroicocephalus_ridibundus_%28summer%29.jpg/1280px-Chroicocephalus_ridibundus_%28summer%29.jpg",
+        },
+        {
+          commonNameEnglish: "Mew Gull",
+          commonNameJapanese: "カモメ",
+          commonNameRomaji: "kamome",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Larus canus kamtschatschensis",
+          range: "NE Siberia; winters SE Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Larus_canus_map.svg/1280px-Larus_canus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Larus_canus1.jpg/800px-Larus_canus1.jpg",
+        },
+        {
+          commonNameEnglish: "Vega Gull",
+          commonNameJapanese: "セグロカモメ",
+          commonNameRomaji: "segurokamome",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Larus argentatus vegae",
+          range: "NE Siberia; winters south to China",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/0d/Larus_vegae.jpg",
+        },
+        {
+          commonNameEnglish: "Slaty-backed Gull",
+          commonNameJapanese: "オオセグロカモメ",
+          commonNameRomaji: "oosegurokamome",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Larus schistisagus",
+          range: "Breeds ne Siberia to Japan; winters south to Taiwan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Larus_schistisagus_map.svg/1280px-Larus_schistisagus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ooseguro-kamome.jpg",
+        },
+        {
+          commonNameEnglish: "Glaucous-winged Gull",
+          commonNameJapanese: "ワシカモメ",
+          commonNameRomaji: "washikamome",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Larus glaucescens",
+          range: "Bering Sea to nw Oregon; winters to Japan and nw Mexico",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Larus_glaucescens_map.svg/1280px-Larus_glaucescens_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Glaucous-winged_gull.jpg/1280px-Glaucous-winged_gull.jpg",
+        },
+        {
+          commonNameEnglish: "Glaucous Gull",
+          commonNameJapanese: "シロカモメ",
+          commonNameRomaji: "shirokamome",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Larus hyperboreus",
+          range: "Jan Mayen and Spitsbergen east to Taymyr Peninsula",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Larus_hyperboreus_map.svg/1280px-Larus_hyperboreus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Glacous_Gull_on_ice.jpg/1280px-Glacous_Gull_on_ice.jpg",
+        },
+        {
+          commonNameEnglish: "Brown Noddy",
+          commonNameJapanese: "クロアジサシ",
+          commonNameRomaji: "kuroajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Anous stolidus pileatus",
+          range: "Seychelles and Madagascar to Australia, Polynesia and Hawaii",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Anous_stolidus_map.svg/1280px-Anous_stolidus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Common_Noddy_1_-_Michaelmas.jpg/1280px-Common_Noddy_1_-_Michaelmas.jpg",
+        },
+        {
+          commonNameEnglish: "Sooty Tern",
+          commonNameJapanese: "セグロアジサシ",
+          commonNameRomaji: "seguroajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Onychoprion fuscatus nubilosus",
+          range: "S Red Sea and Indian Ocean to Ryukyu Is. and Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Onychoprion_fuscatus_map.svg/1280px-Onychoprion_fuscatus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sterna_fuscata.JPG/1280px-Sterna_fuscata.JPG",
+        },
+        {
+          commonNameEnglish: "Bridled Tern",
+          commonNameJapanese: "マミジロアジサシ",
+          commonNameRomaji: "mamijiroajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Onychoprion anaethetus",
+          range: "Ryukyu Is., Taiwan, Philippines, Indonesia and Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Onychoprion_anaethetus_map.svg/1280px-Onychoprion_anaethetus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Bridled_Tern_LEI_Nov06.JPG/1280px-Bridled_Tern_LEI_Nov06.JPG",
+        },
+        {
+          commonNameEnglish: "Little Tern",
+          commonNameJapanese: "コアジサシ",
+          commonNameRomaji: "koajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Sternula albifrons sinensis",
+          range: "SE Russia to Japan, SE Asia, Philippines and New Guinea",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/SternulaAlbifronsIUCN.png/1280px-SternulaAlbifronsIUCN.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sternula_albifrons_2_-_Little_Swanport.jpg/1280px-Sternula_albifrons_2_-_Little_Swanport.jpg",
+        },
+        {
+          commonNameEnglish: "White-winged Tern",
+          commonNameJapanese: "ハジロクロハラアジサシ",
+          commonNameRomaji: "hajirokuroharaajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Chlidonias leucopterus",
+          range: "Palearctic; winters to Africa, s Asia and Australasia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Chlidonias_leucopterus_map.svg/1280px-Chlidonias_leucopterus_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/0b/Chlidonias_leucopterus_Mai_Po.jpg",
+        },
+        {
+          commonNameEnglish: "Whiskered Tern",
+          commonNameJapanese: "クロハラアジサシ",
+          commonNameRomaji: "kuroharaajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Chlidonias hybrida",
+          range:
+            "breeds nw Africa and central and s Europe to se Siberia, e China and s to Pakistan and n India; winters Africa and s and se Asia to Thai-Malay Peninsula, Sulawesi, and the Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/ChlidoniasHybridaIUCN2019_3.png/1280px-ChlidoniasHybridaIUCN2019_3.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Whiskered_tern_%28Chlidonias_hybrida_delalandii%29.jpg/1280px-Whiskered_tern_%28Chlidonias_hybrida_delalandii%29.jpg",
+        },
+        {
+          commonNameEnglish: "Roseate Tern",
+          commonNameJapanese: "ベニアジサシ",
+          commonNameRomaji: "beniajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Sterna dougallii bangsi",
+          range: "Arabian Sea; e China to New Guinea, Solomons and Ryukyus",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Sterna_dougallii_map.svg/1280px-Sterna_dougallii_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Roseate_terns_Palometas.jpg/1280px-Roseate_terns_Palometas.jpg",
+        },
+        {
+          commonNameEnglish: "Black-naped Tern",
+          commonNameJapanese: "エリグロアジサシ",
+          commonNameRomaji: "eriguroajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Sterna sumatrana",
+          range:
+            "Andaman and Nicobar islands to e China and s Japan, through se Asia to the Philippines, the Sunda Islands, New Guinea and n Australia, Micronesia, Melanesia, and w central Polynesia (e to Samoa)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/a/a0/Black-naped_Tern_LEI.JPG",
+        },
+        {
+          commonNameEnglish: "Common Tern",
+          commonNameJapanese: "アジサシ",
+          commonNameRomaji: "ajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Sterna hirundo longipennis",
+          range: "NE Siberia to ne China; winters SE Asia to Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/SternaHirundoIUCNver2018_2.png/1280px-SternaHirundoIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/b/bf/Common_tern_with_fish.jpg",
+        },
+        {
+          commonNameEnglish: "Great Crested-Tern",
+          commonNameJapanese: "オオアジサシ",
+          commonNameRomaji: "ooajisashi",
+          order: "Charadriiformes",
+          family: "Laridae",
+          species: "Thalasseus bergii cristatus",
+          range:
+            "Ryukyu Islands and se China to the Philippines, the Sunda Islands, Wallacea, New Guinea, Australia, and the tropical Pacific Ocean (to se Polynesia)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/SternaBergiMap2.svg/1280px-SternaBergiMap2.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Crested_Tern_Tasmania.jpg/1280px-Crested_Tern_Tasmania.jpg",
+        },
       ]);
     });
 };
