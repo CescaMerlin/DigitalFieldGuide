@@ -3300,6 +3300,170 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Parus_minor_%28side%29.JPG/1280px-Parus_minor_%28side%29.JPG",
         },
+        {
+          commonNameEnglish: "Chinese Penduline Tit",
+          commonNameJapanese: "ツリスガラ",
+          commonNameRomaji: "tsurisugara",
+          order: "Passeriformes",
+          family: "Remizidae",
+          species: "Remiz consobrinus",
+          range: "Reedbeds and marshes of n China; winters to s China",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Chinese_Penduline-tit_%28Remiz_consobrinus%29_Chinabeutelmeise.JPG/800px-Chinese_Penduline-tit_%28Remiz_consobrinus%29_Chinabeutelmeise.JPG",
+        },
+        {
+          commonNameEnglish: "Bearded Reedling",
+          commonNameJapanese: "ヒゲガラ",
+          commonNameRomaji: "higegara",
+          order: "Passeriformes",
+          family: "Alaudidae",
+          species: "Panurus biarmicus russicus",
+          range:
+            "central Europe (Austria to northern Balkans) and Asia Minor east through central Asia to northern China",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/PanurusBiarmicusIUCN2019-3.png/1280px-PanurusBiarmicusIUCN2019-3.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Panurus_biarmicus_-Oare_Marshes%2C_Kent%2C_England_-male-8_%283%29.jpg/800px-Panurus_biarmicus_-Oare_Marshes%2C_Kent%2C_England_-male-8_%283%29.jpg",
+        },
+        {
+          commonNameEnglish: "Zitting Cisticola",
+          commonNameJapanese: "セッカ",
+          commonNameRomaji: "sekka",
+          order: "Passeriformes",
+          family: "Cisticolidae",
+          species: "Cisticola juncidis brunniceps",
+          range:
+            "Japan (Honshu to Ryukyu, Izu and Cheju-Do is.) to n Philippines",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/1/17/Zitting_Cisticola_-_Cisticola_juncidis.JPG",
+        },
+        {
+          commonNameEnglish: "Black browed Reed Warbler",
+          commonNameJapanese: "コヨシキリ",
+          commonNameRomaji: "koyoshikiri",
+          order: "Passeriformes",
+          family: "Acrocephalidae",
+          species: "Acrocephalus bistrigiceps",
+          range: "E Siberia to n China and n Manchuria; winters to s Asia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/6/60/Acrocephalus_bistrigiceps_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/7/75/Black-browed_Reed_Warbler_by_Jason_Thompson_%28Cropped%29.jpg",
+        },
+        {
+          commonNameEnglish: "Oriental Reed Warbler",
+          commonNameJapanese: "オオヨシキリ",
+          commonNameRomaji: "ooyoshikiri",
+          order: "Passeriformes",
+          family: "Acrocephalidae",
+          species: "Acrocephalus orientalis",
+          range:
+            "SE Siberia to n China; winters s Asia, n Australia and Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/6/66/Acrocephalus_orientalis_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/7/74/Oriental_Reed_Warbler_I_IMG_0246.jpg",
+        },
+        {
+          commonNameEnglish: "Sakhalin Grasshopper Warbler",
+          commonNameJapanese: "エゾセンユウ",
+          commonNameRomaji: "ezosennyuu",
+          order: "Passeriformes",
+          family: "Locustellidae",
+          species: "Helopsaltes amnicola",
+          range:
+            "Sakhalin, s Kuril Islands and Hokkaido; winters in Philippines",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d2/Locustella_amnicola_Hokkaido_Japan.jpg",
+        },
+        {
+          commonNameEnglish: "Marsh Grassbird",
+          commonNameJapanese: "オオセッカ",
+          commonNameRomaji: "oosekka",
+          order: "Passeriformes",
+          family: "Locustellidae",
+          species: "Helopsaltes pryeri",
+          range: "Honshu (Japan)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/b/b4/Marsh_Grassbird.jpg",
+        },
+        {
+          commonNameEnglish: "Middendorff's Grasshopper Warbler",
+          commonNameJapanese: "シマセンニュウ",
+          commonNameRomaji: "shimasennyuu",
+          order: "Passeriformes",
+          family: "Locustellidae",
+          species: "Helopsaltes ochotensis",
+          range:
+            "E Siberia to n Japan; winters to Philippines, Borneo and Sulawesi",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/3/36/Locustella_ochotensis_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Wiki-simasennyu.jpg/1280px-Wiki-simasennyu.jpg",
+        },
+        {
+          commonNameEnglish: "Pleske's Grasshopper Warbler",
+          commonNameJapanese: "ウチヤマセンニュウ",
+          commonNameRomaji: "uchiyamasennyuu",
+          order: "Passeriformes",
+          family: "Locustellidae",
+          species: "Helopsaltes pleskei",
+          range:
+            "E Siberia to Korea, Kyushu and Izu Islands; winters in s China",
+        },
+        {
+          commonNameEnglish: "Lanceolated Warbler",
+          commonNameJapanese: "マキノセンニュウ",
+          commonNameRomaji: "makinosennyuu",
+          order: "Passeriformes",
+          family: "Locustellidae",
+          species: "Locustella lanceolata",
+          range:
+            "E Palearctic; winters to s Asia, Greater Sundas and Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/0/0e/Locustella_lanceolata_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Locustella_lanceolata_71284996.jpg/1280px-Locustella_lanceolata_71284996.jpg",
+        },
+        {
+          commonNameEnglish: "Sand Martin",
+          commonNameJapanese: "ショウドウツバメ",
+          commonNameRomaji: "shoudoutsubame",
+          order: "Passeriformes",
+          family: "Hirundinidae",
+          species: "Riparia riparia",
+          range: "Breeds widely in Holarctic regions; >in tropics",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Riparia_riparia_map.svg/1280px-Riparia_riparia_map.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/04/Riparia_riparia_-Markinch%2C_Fife%2C_Scotland_-flying-8-4c.jpg",
+        },
+        {
+          commonNameEnglish: "Barn Swallow",
+          commonNameJapanese: "ツバメ",
+          commonNameRomaji: "tsubame",
+          order: "Passeriformes",
+          family: "Hirundinidae",
+          species: "Hirundo rustica gutturalis",
+          range: "E Himalayas to ne Myanmar, Japan, Korea; >n Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Hirundo_rustica.png/1280px-Hirundo_rustica.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Landsvale.jpg/1280px-Landsvale.jpg",
+        },
+        {
+          commonNameEnglish: "Pacific Swallow",
+          commonNameJapanese: "リュウキュウツバメ",
+          commonNameRomaji: "ryuukyuutsubame",
+          order: "Passeriformes",
+          family: "Hirundinidae",
+          species: "Hirundo tahitica namiyei",
+          range: "Ryukyu Islands and Taiwan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Hirundo_rustica.png/1280px-Hirundo_rustica.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hirundo_tahitica_javanica.JPG/800px-Hirundo_tahitica_javanica.JPG",
+        },
       ]);
     });
 };
