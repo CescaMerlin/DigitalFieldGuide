@@ -1,4 +1,5 @@
-# DigiTori - a Digital Field Guide
+![DigiTori Logo](https://i.imgur.com/iakPC5l.png)
+# [DigiTori](https://digitori-production.herokuapp.com/) - a Digital Field Guide
 
 DigiTori is designed to be an english field guide to the birds of Japan. Users can search for birds according to specific parameters and view information about each bird. Currently available information fields include a photo, common names, scientific names, and a range map.
 
