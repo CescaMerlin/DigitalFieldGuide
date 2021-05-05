@@ -3464,6 +3464,680 @@ exports.seed = function (knex) {
           profilePic:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hirundo_tahitica_javanica.JPG/800px-Hirundo_tahitica_javanica.JPG",
         },
+        {
+          commonNameEnglish: "Red rumped Swallow",
+          commonNameJapanese: "コシアカツバメ",
+          commonNameRomaji: "koshiakatsubame",
+          order: "Passeriformes",
+          family: "Hirundinidae",
+          species: "Cecropis daurica japonica",
+          range:
+            "Korea, e and c China and Japan; migrant to coastal n Australia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/CecropisDauricaIUCNver2018_2.png/1024px-CecropisDauricaIUCNver2018_2.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/a/a1/Red-rumped_Swallow_%28Cecropis_daurica%29_Photograph_by_Shantanu_Kuveskar.jpg",
+        },
+        {
+          commonNameEnglish: "Asian House Martin",
+          commonNameJapanese: "イワツバメ",
+          commonNameRomaji: "iwatsubame",
+          order: "Passeriformes",
+          family: "Hirundinidae",
+          species: "Delichon dasypus",
+          range: "Siberia to Kuril Is., Japan; Greater Sundas, Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/6/6e/Delichondasypus.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/1/18/Delichon_dasypus_-Taiwan-8-4c.jpg",
+        },
+        {
+          commonNameEnglish: "Light vented Bulbul",
+          commonNameJapanese: "シロガシラ",
+          commonNameRomaji: "shirogashira",
+          order: "Passeriformes",
+          family: "Pycnonotidae",
+          species: "Pycnonotus formosae orii",
+          range: "S Ryukyu Islands (Yonaguni and Ishigaki)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chinese_Bubul.JPG/1024px-Chinese_Bubul.JPG",
+        },
+        {
+          commonNameEnglish: "Brown eared Bulbul",
+          commonNameJapanese: "ヒヨドリ",
+          commonNameRomaji: "hiyodori",
+          order: "Passeriformes",
+          family: "Pycnonotidae",
+          species: "Hypsipetes amaurotis",
+          range: "North, central, southern Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hypsipetes_amaurotis_distribution_map.png/1024px-Hypsipetes_amaurotis_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/The_brown-eared_bulbul_after_playing_with_water.jpg/1024px-The_brown-eared_bulbul_after_playing_with_water.jpg",
+        },
+        {
+          commonNameEnglish: "Yellow browed Warbler",
+          commonNameJapanese: "キマユムシクイ",
+          commonNameRomaji: "kimayumushikui",
+          order: "Passeriformes",
+          family: "Phylloscopidae",
+          species: "Phylloscopus inornatus",
+          range:
+            "Breeds Ural Mts E to Sea of Okhotsk, Mongolia, Manchuria (possibly N Korea); winters from Nepal Bangladesh E to S China, Hainan, Andaman Islands, Thailand, Mayala, SE Asia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/7/7c/Phylloscopus_inornatus_Meet_Again_368583749_crop.png",
+        },
+        {
+          commonNameEnglish: "Eastern crowned Warbler",
+          commonNameJapanese: "センダイムシクイ",
+          commonNameRomaji: "sendaimushikui",
+          order: "Passeriformes",
+          family: "Phylloscopidae",
+          species: "Phylloscopus coronatus",
+          range: "Siberia and n China; winters in SE Asia and Greater Sundas",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Phylloscopus_coronatus_distribution_map.png/1024px-Phylloscopus_coronatus_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Eastern_crowned_warbler.jpg/1024px-Eastern_crowned_warbler.jpg",
+        },
+        {
+          commonNameEnglish: "Ijima's Leaf Warbler",
+          commonNameJapanese: "イイジマムシクイ",
+          commonNameRomaji: "iijimamushikui",
+          order: "Passeriformes",
+          family: "Phylloscopidae",
+          species: "Phylloscopus ijimae",
+          range: "Izu Islands (s Japanese Archipelago); > n Philippines",
+          profilePic:
+            "https://live.staticflickr.com/5664/22092052812_fa0dc96087_n.jpg",
+        },
+        {
+          commonNameEnglish: "Sakhalin Leaf Warbler",
+          commonNameJapanese: "エゾムシクイ",
+          commonNameRomaji: "ezomushikui",
+          order: "Passeriformes",
+          family: "Phylloscopidae",
+          species: "Phylloscopus borealoides",
+          range: "Sakhalin, Kuril Islands and Hokkaido (n Japan)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sakhalin_Leaf-warbler.jpg/1024px-Sakhalin_Leaf-warbler.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Leaf Warbler",
+          commonNameJapanese: "メボソムシクイ",
+          commonNameRomaji: "mebosomushikui",
+          order: "Passeriformes",
+          family: "Phylloscopidae",
+          species: "Phylloscopus xanthodryas",
+          range:
+            "Incompletely known. Breeds Japan (Honshu, Shikoku, Kyushu); winter range uncertain",
+          profilePic:
+            "https://live.staticflickr.com/5671/21241945908_3d24f68ea4_n.jpg",
+        },
+        {
+          commonNameEnglish: "Arctic Warbler",
+          commonNameJapanese: "コムシクイ",
+          commonNameRomaji: "komushikui",
+          order: "Passeriformes",
+          family: "Phylloscopidae",
+          species: "Phylloscopus borealis",
+          range:
+            "breeds from n Scandanvia e Siberia (excluding Kamchatka Peninsula) w Alaska, s to central Siberia, n Mongolia, ne China (ne Nei Mongol & Heilongjiang); winters from se Asia (Myanmar e to Vietnam), se China (Fujian, northern Guangdong) Taiwan s to Philippines Wallacea",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Distribution_map_for_Phylloscopus_borealis_%28pacific_centered%29.svg/1024px-Distribution_map_for_Phylloscopus_borealis_%28pacific_centered%29.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/3/33/Arctic_Warbler_4683b.jpg",
+        },
+        {
+          commonNameEnglish: "Kamchatka Leaf Warbler",
+          commonNameJapanese: "オオムシクイ",
+          commonNameRomaji: "oomushikui",
+          order: "Passeriformes",
+          family: "Phylloscopidae",
+          species: "Phylloscopus examinandus",
+          range:
+            "Incompletely known. Breeds s Kamchatka, Sakhalin, Kurile Is, ne Hokkaido; winters at least to Indonesia",
+          profilePic:
+            "https://live.staticflickr.com/65535/51135825549_c1d968a61d_n.jpg",
+        },
+        {
+          commonNameEnglish: "Asian Stubtail",
+          commonNameJapanese: "ヤブサメ",
+          commonNameRomaji: "yabusame",
+          order: "Passeriformes",
+          family: "Scotocercidae",
+          species: "Urosphena squameiceps",
+          range: "Breeds ne Asia; winters to SE Asia and Taiwan",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/2/23/Urosphena_squameiceps.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Bush Warbler",
+          commonNameJapanese: "ウグイス",
+          commonNameRomaji: "uguisu",
+          order: "Passeriformes",
+          family: "Scotocercidae",
+          species: "Horornis diphone",
+          range:
+            "S Izu Islands, Bonin Islands, Volcano Islands, Daito Islands, Ryukyu Islands, S Sakhalin and s Kuril Islands; winters to se China, Main Japanese islands south to Cheju-Do Islands. Also Hawaiian Islands (introduced)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cettia_diphone_%28crying%29.JPG",
+        },
+        {
+          commonNameEnglish: "Long tailed Tit",
+          commonNameJapanese: "エナガ",
+          commonNameRomaji: "enaga",
+          order: "Passeriformes",
+          family: "Aegithalidae",
+          species: "Aegithalos caudatus",
+          range:
+            "Japan (Honshu, Awa-shima, Sado and Oki); Cheju-Do Is. (Korea), S Japanese islands (Shikoku, Kyushu and Yakushima), S Korea and Tsushima Is. (Kamino-shima and Shimono-shima)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/5/53/Schwanzmeise_%28Aegithalos_caudatus%29_distribution_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Aegithalos_caudatus_side-on.jpg/1280px-Aegithalos_caudatus_side-on.jpg",
+        },
+        {
+          commonNameEnglish: "Bonin white eye",
+          commonNameJapanese: "メグロ",
+          commonNameRomaji: "meguro",
+          order: "Passeriformes",
+          family: "Zosteropidae",
+          species: "Apalopteron familiare",
+          range:
+            "Muko-Shima (n Bonin Islands), Haha-Shima Group (s Bonin Islands)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bonin_white-eye_cropped.jpg/1280px-Bonin_white-eye_cropped.jpg",
+        },
+        {
+          commonNameEnglish: "Warbling white eye",
+          commonNameJapanese: "メジロ",
+          commonNameRomaji: "mejiro",
+          order: "Passeriformes",
+          family: "Zosteropidae",
+          species: "Zosterops japonicus",
+          range:
+            "southern Sakhalin Island, Japan, and the southern Korean Peninsula; partially migratory, withdrawing from Sakhalin Island and northern Japan in the nonbreeding season",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Japanese_white-eye_at_Tenn%C5%8Dji_Park_in_Osaka%2C_January_2016_III.jpg/1280px-Japanese_white-eye_at_Tenn%C5%8Dji_Park_in_Osaka%2C_January_2016_III.jpg",
+        },
+        {
+          commonNameEnglish: "Goldcrest",
+          commonNameJapanese: "キクイタダキ",
+          commonNameRomaji: "kikuitadaki",
+          order: "Passeriformes",
+          family: "Regulidae",
+          species: "Regulus regulus japonensis",
+          range: "Mts. of Manchuria to n and e China, Korea and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/4/4e/Regulus_regulus_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Goldcrest_1.jpg/1024px-Goldcrest_1.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Nuthatch",
+          commonNameJapanese: "ゴジュウガラ",
+          commonNameRomaji: "gojuugara",
+          order: "Passeriformes",
+          family: "Sittidae",
+          species: "Sitta europaea",
+          range:
+            "S Japan (S Kyushu), Russia to ne China, Korea and Honshu (n Japan), central and s Japan (Honshu, Shikoku, and N Kyushu)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sitta_europaea_map.png/1024px-Sitta_europaea_map.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kleiber_Sitta_europaea-0447.jpg/1024px-Kleiber_Sitta_europaea-0447.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Treecreeper",
+          commonNameJapanese: "キバシリ",
+          commonNameRomaji: "kibashiri",
+          order: "Passeriformes",
+          family: "Certhiidae",
+          species: "Certhia familiaris japonica",
+          range: "Japan (Honshu, Shikoku and Kyushu)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Certhia_familiaris_Certhia_hodgsoni.png/1024px-Certhia_familiaris_Certhia_hodgsoni.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/0/04/Certhia_familiaris_01.jpg",
+        },
+        {
+          commonNameEnglish: "Eurasian Wren",
+          commonNameJapanese: "ミソサザイ",
+          commonNameRomaji: "misosazai",
+          order: "Passeriformes",
+          family: "Troglodytidae",
+          species: "Troglodytes troglodytes",
+          range:
+            "N Kuril Islands (Shasukotan and Ushichi), S Kuril Islands and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Troglodytes_troglodytes-map.jpg/1024px-Troglodytes_troglodytes-map.jpg",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ein_neugieriger_Zaunk%C3%B6nig.jpg/1024px-Ein_neugieriger_Zaunk%C3%B6nig.jpg",
+        },
+        {
+          commonNameEnglish: "Brown Dipper",
+          commonNameJapanese: "カワガラス",
+          commonNameRomaji: "kawagarasu",
+          order: "Passeriformes",
+          family: "Cinclidae",
+          species: "Cinclus pallasii",
+          range:
+            "Mts. of ne Asia, Japan, e and central China, Taiwan, n Thailand, n Vietnam",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cinclus_pallasii_distr01.png/1024px-Cinclus_pallasii_distr01.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Cinclus_pallasii_%28side%29.JPG/1024px-Cinclus_pallasii_%28side%29.JPG",
+        },
+        {
+          commonNameEnglish: "Chestnut cheeked Starling",
+          commonNameJapanese: "コムクドリ",
+          commonNameRomaji: "komukudori",
+          order: "Passeriformes",
+          family: "Sturnidae",
+          species: "Agropsar philippensis",
+          range:
+            "S Sakhalin, Kuril Is. and n Japan; winters to Philippines, e Indies",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Sturnus_philippensis.jpg/1024px-Sturnus_philippensis.jpg",
+        },
+        {
+          commonNameEnglish: "White shouldered Starling",
+          commonNameJapanese: "カラムクドリ",
+          commonNameRomaji: "karamukudori",
+          order: "Passeriformes",
+          family: "Sturnidae",
+          species: "Sturnia sinensis",
+          range: "S China to Indochina; winters to SE Asia and n Philippines",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sturnia_sinensis_%28Mandarinstar_-_White-shouldered_Starling%29_-_Weltvogelpark_Walsrode_2013-03.jpg/1024px-Sturnia_sinensis_%28Mandarinstar_-_White-shouldered_Starling%29_-_Weltvogelpark_Walsrode_2013-03.jpg",
+        },
+        {
+          commonNameEnglish: "White cheeked Starling",
+          commonNameJapanese: "ムクドリ",
+          commonNameRomaji: "mukudori",
+          order: "Passeriformes",
+          family: "Sturnidae",
+          species: "Spodiopsar cineraceus",
+          range: "NE Asia; winters in s China and Philippines",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Spodiopsar_cineraceus_distribution.png/1024px-Spodiopsar_cineraceus_distribution.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mukudori_05z4384cs.jpg",
+        },
+        {
+          commonNameEnglish: "White's Thrush",
+          commonNameJapanese: "トラツグミ",
+          commonNameRomaji: "toratsugumi",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Zoothera aurea toratugumi",
+          range: "Manchuria and Japan; winters in Taiwan and Lan-yü I.",
+          profilePic:
+            "https://live.staticflickr.com/65535/50397628186_e98ea75311_n.jpg",
+        },
+        {
+          commonNameEnglish: "Scaly Thrush",
+          commonNameJapanese: "カッショクトラツグミ",
+          commonNameRomaji: "kasshokutoratsugumi",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Zoothera dauma iriomotensis",
+          range: "Iriomotejima (southern Ryukyu Islands)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Scaly_Thursh_%28cropped%29.jpg/800px-Scaly_Thursh_%28cropped%29.jpg",
+        },
+        {
+          commonNameEnglish: "Amami Thrush",
+          commonNameJapanese: "オオトラツグミ",
+          commonNameRomaji: "ootoratsugumi",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Zoothera major",
+          range: "Amami-O-Shima (n Ryukyu Islands)",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Zoothera_major_cropped.jpg/1024px-Zoothera_major_cropped.jpg",
+        },
+        {
+          commonNameEnglish: "Siberian Thrush",
+          commonNameJapanese: "マミジロ",
+          commonNameRomaji: "mamijiro",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Geokichla sibirica davisoni",
+          range:
+            "Sakhalin I. and n Japan; winters to s China, SE Asia and Sumatra",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Geokichla_sibirica.jpg/1024px-Geokichla_sibirica.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Thrush",
+          commonNameJapanese: "クロツグミ",
+          commonNameRomaji: "kurotsugumi",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Turdus cardis",
+          range: "Central China and Japan; winters to s China and Indochina",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/e/e7/Wiki-kurotsugumi-1.jpg",
+        },
+        {
+          commonNameEnglish: "Eyebrowed Thrush",
+          commonNameJapanese: "マミチャジナイ",
+          commonNameRomaji: "mamichajinai",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Turdus obscurus",
+          range:
+            "Siberia, Mongolia and Japan; winters to Indonesia and Philippines",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/c/c6/Eyebrowed_Thrush.jpg",
+        },
+        {
+          commonNameEnglish: "Brown headed Thrush",
+          commonNameJapanese: "アカハラ",
+          commonNameRomaji: "akahara",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Turdus chrysolaus",
+          range:
+            "Sakhalin I. (Russia) to n Japan; winters to s China, Philippines, main Japanese islands and Ryukyu Is.",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/5/5c/Akahara_08f2218.jpg",
+        },
+        {
+          commonNameEnglish: "Izu Thrush",
+          commonNameJapanese: "アカコッコ",
+          commonNameRomaji: "akakokko",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Turdus celaenops",
+          range: "Izu Islands and Yakushima (Ryukyu Islands)",
+          profilePic:
+            "https://farm7.staticflickr.com/6207/6094001920_dc941b91e5_n.jpg",
+        },
+        {
+          commonNameEnglish: "Pale Thrush",
+          commonNameJapanese: "シロハラ",
+          commonNameRomaji: "shirohara",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Turdus pallidus",
+          range:
+            "NE Siberia to Kuril Is. and Japan; winters to SE Asia and Sumatra",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pale_Thrush_-_Taiwan_S4E8071_%2817027483687%29.jpg/1024px-Pale_Thrush_-_Taiwan_S4E8071_%2817027483687%29.jpg",
+        },
+        {
+          commonNameEnglish: "Dusky Thrush",
+          commonNameJapanese: "ツグミ",
+          commonNameRomaji: "tsugumi",
+          order: "Passeriformes",
+          family: "Turdidae",
+          species: "Turdus eunomus",
+          range:
+            "N Siberia to Kamchatka; winters to Japan, s China and Myanmar",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Turdus_eunomus_-Japan-8.jpg/1024px-Turdus_eunomus_-Japan-8.jpg",
+        },
+        {
+          commonNameEnglish: "Gray streaked Flycatcher",
+          commonNameJapanese: "エゾビタキ",
+          commonNameRomaji: "ezobitaki",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Muscicapa griseisticta",
+          range: "SE Siberia to ne China; > to New Guinea and Philippines",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Muscicapa_griseisticta.JPG/1024px-Muscicapa_griseisticta.JPG",
+        },
+        {
+          commonNameEnglish: "Dark sided Flycatcher",
+          commonNameJapanese: "サメビタキ",
+          commonNameRomaji: "samebitaki",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Muscicapa sibirica",
+          range: "SE Siberia to Japan; > to Indochina and Greater Sundas",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Muscicapa_sibirica.jpg/1024px-Muscicapa_sibirica.jpg",
+        },
+        {
+          commonNameEnglish: "Asian Brown Flycatcher",
+          commonNameJapanese: "コサメビタキ",
+          commonNameRomaji: "kosamebitaki",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Muscicapa dauurica",
+          range: "Siberia to Japan, s China and India; > to Greater Sundas",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Asian_Brown_Flycatcher_%28Muscicapa_dauurica%29_at_Periyar_National_Park.jpg/800px-Asian_Brown_Flycatcher_%28Muscicapa_dauurica%29_at_Periyar_National_Park.jpg",
+        },
+        {
+          commonNameEnglish: "Blue and white Flycatcher",
+          commonNameJapanese: "オオルリ",
+          commonNameRomaji: "ooruri",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Cyanoptila cyanomelana",
+          range:
+            "breeds Japan and southern Kuril Islands; the species winters south to Myanmar, Thailand, and the Greater Sundas",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Blue_and_white_flycatcher.jpg/1024px-Blue_and_white_flycatcher.jpg",
+        },
+        {
+          commonNameEnglish: "Rufous tailed Robin",
+          commonNameJapanese: "シマゴマ",
+          commonNameRomaji: "shimagoma",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Larvivora sibilans",
+          range: "Breeds s Siberia to Sea of Okhotsk; > s China to SE Asia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Luscinia_sibilans_-_Khao_Yai.jpg/1024px-Luscinia_sibilans_-_Khao_Yai.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Robin",
+          commonNameJapanese: "アカヒゲ",
+          commonNameRomaji: "akahige",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Larvivora akahige",
+          range:
+            "S Kuril and Sakhalin is. to n Japanese Arch.; > to s China, Rishiri I., S Japanese Arch.",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/7/78/Japanese_Robin_9625.jpg",
+        },
+        {
+          commonNameEnglish: "Ryukyu Robin",
+          commonNameJapanese: "コマドリ",
+          commonNameRomaji: "komadori",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Larvivora komadori",
+          range:
+            "Ryukyu Is. (Tanega-Shima, Amami-O-Shima, Tokuno-Shima), S Ryukyu Islands (Ishigaki, Iriomote and Yonaguni), Okinawa",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Luscinia_komadori_female_2.jpg/1024px-Luscinia_komadori_female_2.jpg",
+        },
+        {
+          commonNameEnglish: "Siberian Blue Robin",
+          commonNameJapanese: "コルリ",
+          commonNameRomaji: "koruri",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Larvivora cyane",
+          range:
+            "breeds e Siberia to ne China, Korea and Japan; the species winters in s China, Indochina, the Thai-Malay Peninsula, Sumatra, Java, and Borneo",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Luscinia_cyane_-_Khao_Yai.jpg/1024px-Luscinia_cyane_-_Khao_Yai.jpg",
+        },
+        {
+          commonNameEnglish: "Siberian Rubythroat",
+          commonNameJapanese: "ノゴマ",
+          commonNameRomaji: "nogoma",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Calliope calliope",
+          range: "Siberia to Japan; > to SE Asia, Philippines and Palau Is.",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Luscinia_calliope_distribution.jpg/1024px-Luscinia_calliope_distribution.jpg",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Luscinia_calliope_-_Pak_Chong_2.jpg/1024px-Luscinia_calliope_-_Pak_Chong_2.jpg",
+        },
+        {
+          commonNameEnglish: "Red flanked Bluetail",
+          commonNameJapanese: "ルリビタキ",
+          commonNameRomaji: "ruribitaki",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Tarsiger cyanurus",
+          range:
+            "breeds from Finland and n Russia e to Mongolia, ne China, Korea, and Japan; resident in Japan (except for Hokkaido)",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/TarsigerCyanurusIUCNver2019_1.png/1024px-TarsigerCyanurusIUCNver2019_1.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Tarsiger_cyanurus.jpg/1024px-Tarsiger_cyanurus.jpg",
+        },
+        {
+          commonNameEnglish: "Yellow rumped Flycatcher",
+          commonNameJapanese: "マミジロキビタキ",
+          commonNameRomaji: "mamijirokibitaki",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Ficedula zanthopygia",
+          range: "Mountains of ne Asia; > in SE Asia and Greater Sundas",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/FicedulaZanthopygiaMap.svg/1024px-FicedulaZanthopygiaMap.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%90%E1%BB%9Bp_ru%E1%BB%93i_v%C3%A0ng_%28cropped%29.jpg/1024px-%C4%90%E1%BB%9Bp_ru%E1%BB%93i_v%C3%A0ng_%28cropped%29.jpg",
+        },
+        {
+          commonNameEnglish: "Narcissus Flycatcher",
+          commonNameJapanese: "キビタキ",
+          commonNameRomaji: "kibitaki",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Ficedula narcissina",
+          range:
+            "Sakhalin to Japan; > to Philippines and Borneo, S Ryukyu Islands",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/FicedulaZanthopygiaMap.svg/1024px-FicedulaZanthopygiaMap.svg.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Narcissus_Flycatcher-cropped.jpg/1024px-Narcissus_Flycatcher-cropped.jpg",
+        },
+        {
+          commonNameEnglish: "Mugimaki Flycatcher",
+          commonNameJapanese: "ムギマキ",
+          commonNameRomaji: "mugimaki",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Ficedula mugimaki",
+          range: "SE Siberia, Sakhalin and ne China; > to SE Asia, Indonesia",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ficedula_mugimaki_-_Khao_Yai.jpg/800px-Ficedula_mugimaki_-_Khao_Yai.jpg",
+        },
+        {
+          commonNameEnglish: "Daurian Redstart",
+          commonNameJapanese: "ジョウビタキ",
+          commonNameRomaji: "joubitaki",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Phoenicurus auroreus",
+          range: "S Siberia to Mongolia; > to Japan and Ryukyu Islands",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Daurian_redstart_at_Daisen_Park_in_Osaka%2C_January_2016.jpg/1024px-Daurian_redstart_at_Daisen_Park_in_Osaka%2C_January_2016.jpg",
+        },
+        {
+          commonNameEnglish: "Blue rock Thrush",
+          commonNameJapanese: "イソヒヨドリ",
+          commonNameRomaji: "isohiyodori",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Monticola solitarius philippensis",
+          range:
+            "SE Siberia to China, Japan and Lan-yü I.; winters to Indonesia",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/MonticolaSolitariusIUCNver2019_1.png/1024px-MonticolaSolitariusIUCNver2019_1.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Monticola_solitarius%2C_Spain_1.jpg/1024px-Monticola_solitarius%2C_Spain_1.jpg",
+        },
+        {
+          commonNameEnglish: "Siberian Stonechat",
+          commonNameJapanese: "ノビタキ",
+          commonNameRomaji: "nobitaki",
+          order: "Passeriformes",
+          family: "Muscicapidae",
+          species: "Saxicola stejnegeri",
+          range: "E Siberia to Japan and Korea; > to s China and Indochina",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Siberian_stonechat_Male.jpg/1024px-Siberian_stonechat_Male.jpg",
+        },
+        {
+          commonNameEnglish: "Bohemian Waxwing",
+          commonNameJapanese: "キレンジャク",
+          commonNameRomaji: "kirenjaku",
+          order: "Passeriformes",
+          family: "Bombycillidae",
+          species: "Bombycilla garrulus",
+          range:
+            "Central Siberia to Sea of Okhotsk; winters to s China and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/BombycillaGarrulusIUCNver2019_1.png/1024px-BombycillaGarrulusIUCNver2019_1.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bombycilla_garrulusII.jpg/1024px-Bombycilla_garrulusII.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Waxwing",
+          commonNameJapanese: "ヒレンジャク",
+          commonNameRomaji: "hirenjaku",
+          order: "Passeriformes",
+          family: "Bombycillidae",
+          species: "Bombycilla japonica",
+          range:
+            "SE Siberia and n Manchuria; winters to s China and Ryukyu Is.",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/b/b4/Bombycilla_japonica.jpg",
+        },
+        {
+          commonNameEnglish: "Alpine Accentor",
+          commonNameJapanese: "イワヒバリ",
+          commonNameRomaji: "iwahibari",
+          order: "Passeriformes",
+          family: "Prunellidae",
+          species: "Prunella collaris erythropygia",
+          range: "Altai Mts. to n China, Sea of Okhotsk, Korea and Japan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Prunella_collaris_dist.png/1024px-Prunella_collaris_dist.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/f/f0/Alpine_Accentor_Lungthu_Pangolakha_WLS_East_Sikkim_India_08.11.2015.jpg",
+        },
+        {
+          commonNameEnglish: "Japanese Accentor",
+          commonNameJapanese: "カヤクグリ",
+          commonNameRomaji: "kayakuguri",
+          order: "Passeriformes",
+          family: "Prunellidae",
+          species: "Prunella rubida",
+          range:
+            "S Kuril Islands, Shikoku and Hokkaido, Honshu; winters to Kyushu",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Prunella_rubida_in_Mount_Norikura_s2.JPG/1024px-Prunella_rubida_in_Mount_Norikura_s2.JPG",
+        },
+        {
+          commonNameEnglish: "Russet Sparrow",
+          commonNameJapanese: "ニュウナイスズメ",
+          commonNameRomaji: "nyuunaisuzume",
+          order: "Passeriformes",
+          family: "Passeridae",
+          species: "Passer cinnamomeus rutilans",
+          range:
+            "Sakhalin to Japan, South Korea, e Manchuria, s China and Taiwan",
+          rangeMap:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Russet_range.png/1024px-Russet_range.png",
+          profilePic:
+            "https://upload.wikimedia.org/wikipedia/commons/8/8b/Passer_rutilans.JPG",
+        },
       ]);
     });
 };

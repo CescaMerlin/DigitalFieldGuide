@@ -1,7 +1,34 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../styles/Home.css";
 
 const Home = (props) => {
+  const [requestURL, setRequestURL] = useState("");
+  const [prediction, setPrediction] = useState("");
+
+  const timeoutFetch = async (resource, options) => {
+    const { timeout = 40000 } = options;
+    const controller = new AbortController();
+    const id = setTimeout(() => controller.abort(), timeout);
+
+    const response = await fetch(resource, {
+      ...options,
+      signal: controller.signal,
+    });
+    clearTimeout(id);
+
+    return response;
+  };
+
+  const getPredictionWithTimeoutFetch = async () => {
+    console.log(requestURL);
+    const response = await fetch(requestURL, {
+      timeout: 40000,
+    });
+    const jsonData = await response.json();
+    console.log(jsonData);
+    console.log(response);
+  };
+
   const handleCatSelect = (e) => {
     props.setCatSelect(e.target.value);
   };
@@ -20,6 +47,14 @@ const Home = (props) => {
   const handleInput = (e) => {
     props.setTextInput(e.target.value);
   };
+  const handlePhotoURL = (e) => {
+    setRequestURL(
+      "https://owl-image-recognition.herokuapp.com/predict?data=" +
+        e.target.value
+    );
+    //setImgURL(e.target.value);
+  };
+
   const handleSearch = (e) => {
     if (
       (props.searchParams.family !== "select" &&
@@ -39,7 +74,7 @@ const Home = (props) => {
 
   return (
     <section className="homeWrapper">
-      What would you like to search by?
+      Start Search:
       <br></br>
       <select className="categorySelect" onClick={handleCatSelect}>
         <option value="select">Select</option>
@@ -139,6 +174,22 @@ const Home = (props) => {
             <option value="Acrocephalidae">Acrocephalidae</option>
             <option value="Locustellidae">Locustellidae</option>
             <option value="Hirundinidae">Hirundinidae</option>
+            <option value="Pycnonotidae">Pycnonotidae</option>
+            <option value="Phylloscopidae">Phylloscopidae</option>
+            <option value="Scotocercidae">Scotocercidae</option>
+            <option value="Aegithalidae">Aegithalidae</option>
+            <option value="Zosteropidae">Zosteropidae</option>
+            <option value="Regulidae">Regulidae</option>
+            <option value="Sittidae">Sittidae</option>
+            <option value="Certhiidae">Certhiidae</option>
+            <option value="Troglodytidae">Troglodytidae</option>
+            <option value="Cinclidae">Cinclidae</option>
+            <option value="Sturnidae">Sturnidae</option>
+            <option value="Turdidae">Turdidae</option>
+            <option value="Muscicapidae">Muscicapidae</option>
+            <option value="Bombycillidae">Bombycillidae</option>
+            <option value="Prunellidae">Prunellidae</option>
+            <option value="Passeridae">Passeridae</option>
           </select>
           <br></br>
           <button className="search" onClick={handleSearch}>
@@ -157,6 +208,21 @@ const Home = (props) => {
           </button>
         </section>
       )}
+      {/* <br></br>
+      **Identify Bird:
+      <br></br>
+      <input
+        type="text"
+        className="identify"
+        placeholder="paste image url"
+        onKeyUp={handlePhotoURL}
+      ></input>
+      <button
+        className="identifyButton"
+        onClick={getPredictionWithTimeoutFetch}
+      >
+        Identify
+      </button> */}
     </section>
   );
 };
