@@ -93,16 +93,16 @@ const Results = (props) => {
   if (data) {
     console.log("results", data);
     return (
-      <section className="resultsWrapper">
+      <section>
         {data.findBirds.count === 0 ? (
-          <section>
+          <section className="resultsWrapper">
             <div className="resultCount">Results...0</div>
             <button className="newSearch" onClick={handleNewSearch}>
               Search Again
             </button>
           </section>
         ) : (
-          <section>
+          <section className="resultsWrapper">
             <div className="resultCount">Results...{data.findBirds.count}</div>
             <button className="newSearch" onClick={handleNewSearch}>
               Search Again
