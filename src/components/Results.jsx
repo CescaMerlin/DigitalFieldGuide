@@ -79,6 +79,7 @@ const Results = (props) => {
   });
 
   const handleNewSearch = (e) => {
+    props.setCatSelect("");
     props.setSearchParams({
       engName: "",
       romName: "",

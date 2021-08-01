@@ -76,7 +76,7 @@ const Home = (props) => {
     <section className="homeWrapper">
       Start Search:
       <br></br>
-      <select className="categorySelect" onClick={handleCatSelect}>
+      <select className="categorySelect" onChange={handleCatSelect}>
         <option value="select">Select</option>
         <option value="order">Order</option>
         <option value="family">Family</option>
@@ -88,7 +88,7 @@ const Home = (props) => {
       <br></br>
       {props.catSelect === "order" && (
         <div>
-          <select className="sciSelect" onClick={handleOrdSelect}>
+          <select className="sciSelect" onChange={handleOrdSelect}>
             <option value="select">Select</option>
             <option value="Strigiformes">Strigiformes</option>
             <option value="Accipitriformes">Accipitriformes</option>
@@ -122,7 +122,7 @@ const Home = (props) => {
       )}
       {props.catSelect === "family" && (
         <div>
-          <select className="sciSelect" onClick={handleFamSelect}>
+          <select className="sciSelect" onChange={handleFamSelect}>
             <option value="select">Select</option>
             <option value="Strigidae">Strigidae</option>
             <option value="Pandionidae">Pandionidae</option>
@@ -205,7 +205,7 @@ const Home = (props) => {
         props.catSelect
       ) && (
         <section>
-          <input type="text" className="manual" onKeyUp={handleInput}></input>
+          <input type="text" className="manual" onChange={handleInput}></input>
           <br></br>
           <button className="search" onClick={handleInputSearch}>
             Search
